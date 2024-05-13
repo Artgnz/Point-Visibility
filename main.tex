@@ -130,7 +130,7 @@
 %\subtitle{Subtitle}
 
 
-\author{Arturo González Peñaloza \and Dulce Julieta Mora Hernández}
+\author{Arturo González Peñaloza\\ Dulce Julieta Mora Hernández}
 \institute[Short title]{
 Universidad Nacional Autónoma de México
 }
@@ -170,45 +170,92 @@ Universidad Nacional Autónoma de México
 \end{frame}
 
 %------------------------------------------------
-
-\begin{frame}{Polígono de visibilidad}
-    *aqui van los ejemplos*
+% Double columns
+\begin{frame}{}
+    \begin{columns}
+    \begin{column}{0.45\textwidth}
+        \begin{wrapfigure}{l}{0.9\textwidth}
+            \centering
+            \includegraphics[width=0.9\textwidth]{imagenes/Case2.1a.png}
+            %\caption{}
+        \end{wrapfigure}
+    \end{column}
+    \begin{column}{0.45\textwidth}  %%<--- here
+        \begin{wrapfigure}{l}{0.9\textwidth}
+            \centering
+            \includegraphics[width=0.9\textwidth]{imagenes/Case2.1b.png}
+            %\caption{}
+        \end{wrapfigure}
+    \end{column}
+    \end{columns}
 \end{frame}
 
 %------------------------------------------------
+% Double columns
+\begin{frame}{}
+    \begin{wrapfigure}{l}{0.9\textwidth}
+        \centering
+        \includegraphics[width=0.9\textwidth]{imagenes/Caso2.1c.png}
+        %\caption{}
+    \end{wrapfigure}
+\end{frame}
 
+%------------------------------------------------
+% Double columns
 \begin{frame}{Constructed edge}
     Sea $ab$ una arista en el perímetro de $V(q)$ de manera que
-	\begin{itemize}
-		\item Ningún punto de $ab$, excepto $a$ y $b$, pertenecen al perímetro de $P$
-		\item Los tres puntos $q$, $a$ y $b$ son colineales
-		\item $a$ o $b$ es un vértice de $P$\\
-	\end{itemize}
-     \vspace{0.5cm}
-    \begin{center}
-        La arista $ab$ se llama \textit{constructed edge} de $V(q)$
-    \end{center}
+    \begin{columns}
+    \begin{column}{0.45\textwidth}
+    	\begin{itemize}
+    		\item Ningún punto de $ab$, excepto $a$ y $b$, pertenecen al perímetro de $P$
+    		\item $q$, $a$ y $b$ son colineales
+    		\item $a$ o $b$ es un vértice de $P$\\
+    	\end{itemize}
+         \vspace{0.5cm}
+        \begin{center}
+            La arista $ab$ se llama \textit{constructed edge} de $V(q)$
+        \end{center}
+    \end{column}
+    \begin{column}{0.45\textwidth}  %%<--- here
+    %$uw$ es una arista de construcción
+        \begin{wrapfigure}{l}{0.65\textwidth}
+            \centering
+            \includegraphics[width=0.65\textwidth]{imagenes/Caso2.7a.png}
+            %\caption{}
+        \end{wrapfigure}
+    \end{column}
+    \end{columns}
 \end{frame}
 
 %------------------------------------------------
 
-\begin{frame}{Constructed edge}
-    *aqui van los ejemplos*
-\end{frame}
-
-
-%------------------------------------------------
-
-\begin{frame}{Revoluciones}
+\begin{frame}[c]{Revoluciones}
     Para un polígono simple $P$ y un punto $z \in P$, el \textit{número de revoluciones} de $P$ con respecto a $z$ es el número de revoluciones que el perímetro de $P$ hace alrededor de $z$.\\
     \vspace{0.5cm}
     Si el número de revoluciones de $P$ respecto a $z$ es uno, $P$ es llamado \textit{non-winding polygon}.
 \end{frame}
 
 %------------------------------------------------
-
-\begin{frame}{Revoluciones}
-    *aqui van los ejemplos*
+% Double columns
+\begin{frame}{}
+    \begin{columns}
+    \begin{column}{0.45\textwidth}
+    El número de revoluciones de $P$ respecto a $q$ es dos
+        \begin{wrapfigure}{c}{1.2\textwidth}
+            \centering
+            \includegraphics[width=1.2\textwidth]{imagenes/Case2.2a.png}
+            %\caption{}
+        \end{wrapfigure}
+    \end{column}
+    \begin{column}{0.45\textwidth}  %%<--- here
+    El número de revoluciones de $P$ respecto a $q$ es una
+        \begin{wrapfigure}{c}{1.2\textwidth}
+            \centering
+            \includegraphics[width=1.2\textwidth]{imagenes/Caso2.2b.png}
+            %\caption{}
+        \end{wrapfigure}
+    \end{column}
+    \end{columns}
 \end{frame}
 
 %------------------------------------------------
@@ -243,8 +290,16 @@ Universidad Nacional Autónoma de México
 
 %------------------------------------------------
 
+\begin{frame}{El problema}
+\textbf{Non-winding polygon: O(n) algorithm}\\
+    \vspace{0.5cm}
+    El problema de la visibilidad de puntos en polígonos non-windings se centra en determinar qué puntos dentro de dichos polígonos son visibles desde un punto de referencia específico.
+\end{frame}
+
+%------------------------------------------------
+
 \begin{frame}[c]
-\textbf{Non-winding polygon: O(n) algorithm}
+\textbf{Non-winding polygon: O(n) algorithm}\\
     \vspace{0.5cm}
     El primer paso del algoritmo es determinar si $q$ se encuentra dentro o fuera de $P$.\\
     \vspace{0.5cm}
@@ -324,23 +379,23 @@ Universidad Nacional Autónoma de México
 
 %------------------------------------------------
 
-\begin{frame}[c]
-    Sea $v_{0}$ el punto más cercano a $q$ entre los puntos de intersección de $bd(P)$ con la línea horizontal trazada desde $q$ a la derecha de $q$.
-    \vspace{0.5cm}
-    Asumimos que los vértices de $P$ están etiquetados de la siguiente forma: $v_{1},v_{2}, v_{3}, \dots , v_{n}$ en sentido antihorario con $v_{1}$ como el siguiente vértice en sentido antihorario después de $v_{0}$.
-    \vspace{0.5cm}
-    Asumimos que el proceso para calcular a $V(q)$ ha recorrido $bd(P)$ en el sentido contrario a las manecillas del reloj desde $v_{1}$ hasta $v_{i-1}$ y $v_{i}$ es nuestro vértice actual.
-\end{frame}
+%\begin{frame}[c]
+%    Sea $v_{0}$ el punto más cercano a $q$ entre los puntos de intersección de $bd(P)$ con la línea horizontal trazada desde $q$ a la derecha de $q$.
+%    \vspace{0.5cm}
+%    Asumimos que los vértices de $P$ están etiquetados de la siguiente forma: $v_{1},v_{2}, v_{3}, \dots , v_{n}$ en sentido antihorario con $v_{1}$ como el siguiente vértice en sentido antihorario después de $v_{0}$.
+%    \vspace{0.5cm}
+%    Asumimos que el proceso para calcular a $V(q)$ ha recorrido $bd(P)$ en el sentido contrario a las manecillas del reloj desde $v_{1}$ hasta $v_{i-1}$ y $v_{i}$ es nuestro vértice actual.
+%\end{frame}
 
 %------------------------------------------------
 
-\begin{frame}[c]
-    \begin{block}{Observación}
-        Sea $bd(v_{j}, v_{k})$ el límite en sentido antihorario de $P$ desde $v_{j}$ hasta $v_{k}$.    
-    \end{block}
-    \vspace{0.5cm}
-    También asumimos que los vértices (y los puntos finales de las \textit{constructed edges}) en $bd(v_{0} v_{i-1})$, las cuales se encuentran para ser visibles desde $q$ por el procedimiento, son colocadas en un stack en el orden en que son encontradas, donde $v_{0}$ y $v_{i-1}$ están en la parte inferior y superior del stack, respectivamente.\\  
-\end{frame}
+%\begin{frame}[c]
+%    \begin{block}{Observación}
+%        Sea $bd(v_{j}, v_{k})$ el límite en sentido antihorario de $P$ desde $v_{j}$ hasta $v_{k}$.    
+%    \end{block}
+%    \vspace{0.5cm}
+%    También asumimos que los vértices (y los puntos finales de las \textit{constructed edges}) en $bd(v_{0} v_{i-1})$, las cuales se encuentran para ser visibles desde $q$ por el procedimiento, son colocadas en un stack en el orden en que son encontradas, donde $v_{0}$ y $v_{i-1}$ están en la parte inferior y superior del stack, respectivamente.\\  
+%\end{frame}
 
 %------------------------------------------------
 
@@ -368,6 +423,7 @@ Universidad Nacional Autónoma de México
         Como $v_{i}$ y los vértices y puntos en el stack se encuentran ordenados por el ordenamiento  angular respecto a $q$, $v_{i}$ es ingresado al stack.
     \end{column}
     \begin{column}{0.45\textwidth}  %%<--- here
+    \vspace{-1.5cm} % Ajuste vertical aquí
         \begin{wrapfigure}{l}{0.9\textwidth}
             \centering
             \includegraphics[width=0.9\textwidth]{imagenes/Caso2.4a.png}
@@ -387,9 +443,10 @@ Universidad Nacional Autónoma de México
         Puede observarse que $v_{i-1}$ y $v_{i}$ no pueden ser visibles por $q$ ya que $qv_{i}$ es intersectado por $bd(v_{0}, v_{i-1})$ o $qv_{i-1}$ es intersectado por $bd(v_{i+1}, v_{n})$ 
     \end{column}
     \begin{column}{0.45\textwidth}  %%<--- here
-        \begin{wrapfigure}{l}{0.9\textwidth}
+    \vspace{-1.5cm} % Ajuste vertical aquí
+        \begin{wrapfigure}{l}{0.95\textwidth}
             \centering
-            \includegraphics[width=0.9\textwidth]{imagenes/Caso2.4b.png}
+            \includegraphics[width=0.95\textwidth]{imagenes/Caso2.4b.png}
             %\caption{}
         \end{wrapfigure}
     \end{column}
@@ -400,45 +457,67 @@ Universidad Nacional Autónoma de México
 
 \begin{frame}{Caso 2a}
     \textbf{El vértice $v_{i}$ se encuentra a la derecha de $\overrightarrow{v_{i-2}v_{i-1}}$}\\
+    \vspace{0.5cm}
+    \begin{columns}
+    \begin{column}{0.45\textwidth}
     El vértice $v_{i}$ y algunos de los vértices subsecuentes de $v_{i}$ (que serán revisados) no son visibles desde $q$.\\
     \vspace{0.5cm}
     Sea $v_{k-1}v_{k}$ la primer arista desde $v_{i+1}$ en $bd(v_{i+1},v_{n})$, en sentido antihorario de manera que $v_{k+1}v_{k}$ intersecta $\overrightarrow{qv_{i-1}}$.\\
     \vspace{0.5cm}
     Sea $z$ el punto de intersección.
-    \begin{wrapfigure}{c}{0.65\textwidth}
+    \end{column}
+    \begin{column}{0.45\textwidth}  %%<--- here
+    \vspace{-1.5cm} % Ajuste vertical aquí
+        \begin{wrapfigure}{l}{0.95\textwidth}
             \centering
-            \includegraphics[width=0.5\textwidth]{imagenes/Caso2.4b.png}
+            \includegraphics[width=0.95\textwidth]{imagenes/Caso2.4b.png}
             %\caption{}
-    \end{wrapfigure}
+        \end{wrapfigure}
+    \end{column}
+    \end{columns}
 \end{frame}
 
 %------------------------------------------------
 
 \begin{frame}{Caso 2a}
-    Veamos que $v_{k}$ se encuentra a la izquierda de $\overrightarrow{qv_{v_{i-1}}}$ ya que $bd(P)$ does not wind around $q$. Entonces, ningún vértice de $bd(v_{i}, v_{v_{k-1}})$ es visible desde $q$ y por consiguiente, $z$ es el siguiente punto de $v_{i-1}$ en $bd(v_{i-1}, v_{n})$ visible desde $q$. Así que, $v_{i}z$ es un \textit{constructed edge} de $V(q)$, donde $q$, $v_{i-1}$ y $z$ son puntos colineales.\\
+    \textbf{El vértice $v_{i}$ se encuentra a la derecha de $\overrightarrow{v_{i-2}v_{i-1}}$}\\
     \vspace{0.5cm}
-    Ingresamos $z$ y $v_{k}$ al stack y $v_{k+1}$ se convierte en el nuevo $v_{i}$
-    \begin{wrapfigure}{c}{0.65\textwidth}
+    \begin{columns}
+    \begin{column}{0.45\textwidth}
+        Veamos que $v_{k}$ se encuentra a la izquierda de $\overrightarrow{qv_{v_{i-1}}}$ ya que $bd(P)$ does not wind around $q$. Entonces, ningún vértice de $bd(v_{i}, v_{v_{k-1}})$ es visible desde $q$ y por consiguiente, $z$ es el siguiente punto de $v_{i-1}$ en $bd(v_{i-1}, v_{n})$ visible desde $q$. Así que, $v_{i}z$ es un \textit{constructed edge} de $V(q)$, donde $q$, $v_{i-1}$ y $z$ son puntos colineales.
+    \end{column}
+    \begin{column}{0.45\textwidth}  %%<--- here
+    \vspace{-1.5cm} % Ajuste vertical aquí
+        \begin{wrapfigure}{l}{0.95\textwidth}
             \centering
-            \includegraphics[width=0.65\textwidth]{imagenes/Caso2.4b.png}
+            \includegraphics[width=0.95\textwidth]{imagenes/Caso2.4b.png}
             %\caption{}
-    \end{wrapfigure}
+        \end{wrapfigure}
+    \end{column}
+    \end{columns}
 \end{frame}
 
 %------------------------------------------------
 
 \begin{frame}{Caso 2b}
     \textbf{El vértice $v_{i}$ se encuentra a la izquierda de $\overrightarrow{v_{i-2}v_{i-1}}$}\\
-    El vértice $v_{i-1}$ y algunos de los vértices anteriores de $v_{i}$ (quien está actualmente en el stack) no son visibles desde $q$. Sacamos a $v_{i}$ del stack. \\
     \vspace{0.5cm}
-    Sea $u$ vértice que se encuentra en la parte superior del stack. La arista $v_{i-1}v_{i}$ es conocida como \textit{forward edge}. Mientras $v_{i-1}v_{i}$ intersecta $uq$ y $u$ es un vértice de $P$, realizamos pop al stack.\\
-    \vspace{0.5cm}
-    Notemos que los vértices que sacamos del stack no son visibles desde $q$ ya que su visibilidad está bloqueada por $v_{i-1}v_{i}$. \\
-    \begin{wrapfigure}{c}{0.65\textwidth}
+    \begin{columns}
+    \begin{column}{0.45\textwidth}
+    \small
+        El vértice $v_{i-1}$ y algunos de los vértices anteriores de $v_{i}$ (quien está actualmente en el stack) no son visibles desde $q$. Sacamos a $v_{i}$ del stack. \\
+        \vspace{0.5cm}
+        Sea $u$ vértice que se encuentra en la parte superior del stack. La arista $v_{i-1}v_{i}$ es conocida como \textit{forward edge}. Mientras $v_{i-1}v_{i}$ intersecta $uq$ y $u$ es un vértice de $P$, realizamos pop al stack.\\
+    \end{column}
+    \begin{column}{0.45\textwidth}  %%<--- here
+    \vspace{-1.5cm}
+        \begin{wrapfigure}{l}{0.95\textwidth}
             \centering
-            \includegraphics[width=0.65\textwidth]{imagenes/Caso2.4a.png}
+            \includegraphics[width=0.95\textwidth]{imagenes/Caso2.4a.png}
             %\caption{}
-    \end{wrapfigure}
+        \end{wrapfigure}
+    \end{column}
+    \end{columns}
 \end{frame}
 
 %------------------------------------------------
@@ -454,88 +533,168 @@ Universidad Nacional Autónoma de México
 \end{frame}
 
 %------------------------------------------------
-
+% Double columns
 \begin{frame}{Caso 2b.i}
     \textbf{$v_{i-1}v_{i}$ no intersecta $uq$}\\ 
-%    El procedimiento decide si es necesario realizar mayor backtracking. 
-    \begin{itemize}
-        \item Si $v_{i+1}$ se encuentra a la derecha de $\overrightarrow{qv_{i}}$, el backtracking continua con $v_{i}v_{i+1}$ como la \textit{forward edge} actual.  
-        \item De otra forma, $v_{i+1}$ se encuentra a la izquierda de $\overrightarrow{qv_{i}}.$
-    \end{itemize}
+    \begin{columns}
+    \begin{column}{0.45\textwidth}
+    Si $v_{i+1}$ se encuentra a la derecha de $\overrightarrow{qv_{i}}$, el backtracking continua con $v_{i}v_{i+1}$ como la \textit{forward edge} actual.
+        \begin{wrapfigure}{c}{1.2\textwidth}
+            \centering
+            \includegraphics[width=1.2\textwidth]{imagenes/Case2.2a.png}
+            %\caption{}
+        \end{wrapfigure}
+    \end{column}
+    \begin{column}{0.45\textwidth}  %%<--- here
+        De otra forma, $v_{i+1}$ se encuentra a la izquierda de $\overrightarrow{qv_{i}}.$
+        \begin{wrapfigure}{c}{1.2\textwidth}
+            \centering
+            \includegraphics[width=1.2\textwidth]{imagenes/Caso2.2b.png}
+            %\caption{}
+        \end{wrapfigure}
+    \end{column}
+    \end{columns}
 \end{frame}
 
 %------------------------------------------------
 
 \begin{frame}{Caso 2b.i}
-    \textbf{$v_{i-1}v_{i}$ no intersecta $uq$}\\ 
-        Sea $m$ el punto de intersección de $\overrightarrow{qv_{i}}$ con la arista del polígono que contiene $u$. 
-        \begin{itemize}
-            \item Si $v_{i+1}$ se encuentra a la derecha de $\overrightarrow{v_{i-1}v_{i}}$, entonces termina el backtracking. Ingresamos $m$ y $v_{i+1}$ al stack y $v_{i+1}$ se convierte en el nuevo $v_{i}$.
-            \item Si $v_{i+1}$ se encuentra a la izquierda de $\overrightarrow{v_{i-1}v_{i}}$, revisamos $bd(v_{i+1}, v_{n})$ desde $v_{i+1}$ hasta que un vértice $v_{k}$ es encontrado de manera que la arista $v_{k-1}v_{k}$ intersecta $mv_{i}$. El backtracking continua con $v_{k-1}v_{k}$ como la \textit{forward edge} actual.
-        \end{itemize}
+    \textbf{$v_{i-1}v_{i}$ no intersecta $uq$}\\
+    \vspace{0.5cm}
+    \begin{columns}
+    \begin{column}{0.45\textwidth}
+        Sea $m$ el punto de intersección de $\overrightarrow{qv_{i}}$ con la arista del polígono que contiene $u$.\\
+        \vspace{0.5cm}
+        Si $v_{i+1}$ se encuentra a la derecha de $\overrightarrow{v_{i-1}v_{i}}$, entonces termina el backtracking.
+    \end{column}
+    \begin{column}{0.45\textwidth}  %%<--- here
+    \vspace{-1.5cm}
+        \begin{wrapfigure}{l}{0.75\textwidth}
+            \centering
+            \includegraphics[width=0.75\textwidth]{imagenes/Caso2.6a.png}
+            %\caption{}
+        \end{wrapfigure}
+    \end{column}
+    \end{columns}
 \end{frame}
 
+%------------------------------------------------
+
 \begin{frame}{Caso 2b.i}
-    \textbf{$v_{i-1}v_{i}$ no intersecta $uq$}\\ 
-    \begin{wrapfigure}{c}{0.65\textwidth}
+    \textbf{$v_{i-1}v_{i}$ no intersecta $uq$}\\
+    \vspace{0.5cm}
+    \begin{columns}
+    \begin{column}{0.45\textwidth}
+    Ingresamos $m$ y $v_{i+1}$ al stack y $v_{i+1}$ se convierte en el nuevo $v_{i}$.\\
+    \vspace{0.5cm}
+    Si $v_{i+1}$ se encuentra a la izquierda de $\overrightarrow{v_{i-1}v_{i}}$, revisamos $bd(v_{i+1}, v_{n})$ desde $v_{i+1}$ hasta que un vértice $v_{k}$ es encontrado de manera que la arista $v_{k-1}v_{k}$ intersecta $mv_{i}$. El backtracking continua con $v_{k-1}v_{k}$ como la \textit{forward edge} actual.    
+    \end{column}
+    \begin{column}{0.45\textwidth}  %%<--- here
+    \vspace{-1.5cm}
+        \begin{wrapfigure}{c}{1.1\textwidth}
             \centering
-            \includegraphics[width=0.65\textwidth]{imagenes/Caso2.5b.png}
+            \includegraphics[width=1.1\textwidth]{imagenes/Caso2.6b.png}
             %\caption{}
-    \end{wrapfigure}
-    \begin{wrapfigure}{c}{0.65\textwidth}
+        \end{wrapfigure}
+    \end{column}
+    \end{columns}
+\end{frame}
+
+%%%%%%%%%%%%%%%%%%%% Caso 2b.ii %%%%%%%%%%%%%%%%%%%%
+%------------------------------------------------
+
+\begin{frame}{Caso 2b.ii}
+    \textbf{$v_{i-1}v_{i}$ intersecta $uq$}\\
+    \vspace{0.5cm}
+    \begin{columns}
+    \begin{column}{0.45\textwidth}
+    $u$ no es un vértice de $P$. Sea $w$ el vértice que se encuentra justo debajo de $u$ en el stack. Por lo que, $uw$ es un \textit{constructed edge}\\
+    \vspace{0.5cm}
+    \end{column}
+    \begin{column}{0.45\textwidth}  %%<--- here
+    \vspace{-3cm}
+        \begin{wrapfigure}{l}{0.85\textwidth}
             \centering
-            \includegraphics[width=0.65\textwidth]{imagenes/Caso2.6a.png}
+            \includegraphics[width=0.85\textwidth]{imagenes/Caso2.7a.png}
             %\caption{}
-    \end{wrapfigure}
-    \begin{wrapfigure}{c}{0.65\textwidth}
-            \centering
-            \includegraphics[width=0.65\textwidth]{imagenes/Caso2.6b.png}
-            %\caption{}
-    \end{wrapfigure}
+        \end{wrapfigure}
+    \end{column}
+    \end{columns}
 \end{frame}
 
 %------------------------------------------------
 
 \begin{frame}{Caso 2b.ii}
-    \begin{itemize}
-        \item $u$ no es un vértice de $P$. Sea $w$ el vértice que se encuentra justo debajo de $u$ en el stack. Por lo que, $uw$ es un \textit{constructed edge} que fue calculado anteriormente por el Caso 2a. \\
-        \vspace{0.5cm}
+    \textbf{$v_{i-1}v_{i}$ intersecta $uq$}\\
+    \vspace{0.5cm}
+    \begin{columns}
+    \begin{column}{0.45\textwidth}
         Sea $p$ el punto de intersección de $uq$ y $v_{i-1}v_{i}$. Si $p \in qw$, la visibilidad de ambos, $u$ y $w$ desde $q$ esta bloqueada por $v_{i-1}v_{i}$. Vaciamos el stack.\\
         \vspace{0.5cm}
-        El backtracking continua y $v_{i-1}v_{i}$ permanece como la \textit{forward edge}. \\
-    \end{itemize}
+        El backtracking continua y $v_{i-1}v_{i}$ permanece como la \textit{forward edge}.\\
+    \vspace{0.5cm}
+    \end{column}
+    \begin{column}{0.45\textwidth}  %%<--- here
+    \vspace{-3cm}
+        \begin{wrapfigure}{l}{0.85\textwidth}
+            \centering
+            \includegraphics[width=0.85\textwidth]{imagenes/Caso2.7a.png}
+            %\caption{}
+        \end{wrapfigure}
+    \end{column}
+    \end{columns}
 \end{frame}
 
 %------------------------------------------------
 
 \begin{frame}{Caso 2b.ii}
-    \textbf{$v_{i-1}v_{i}$ intersecta $uq$}\\ 
-    \begin{wrapfigure}{c}{0.65\textwidth}
-            \centering
-            \includegraphics[width=0.65\textwidth]{imagenes/Caso2.7a.png}
-            %\caption{}
-    \end{wrapfigure}
-    \begin{wrapfigure}{c}{0.65\textwidth}
-            \centering
-            \includegraphics[width=0.65\textwidth]{imagenes/Caso2.7b.png}
-            %\caption{}
-    \end{wrapfigure}
-\end{frame}
-
-%------------------------------------------------
-\begin{frame}{Caso 2b.ii}
-    \begin{itemize}
-        \small
-%        \setcounter{enumi}{1}
-        \item De otra forma, $v_{i-1}v_{i}$ ha intersectado $uw$ como $p$ pertenece a $uw$.\\
+    \textbf{$v_{i-1}v_{i}$ intersecta $uq$}\\
+    \vspace{0.5cm}
+    \begin{columns}
+    \begin{column}{0.45\textwidth}
+        De otra forma, $v_{i-1}v_{i}$ ha intersectado $uw$ como $p$ pertenece a $uw$.\\
         \vspace{0.5cm}
         Checamos $bd(v_{i+1, v_{n}})$ desde $v_{i+1}$ hasta encontrar un vértice $v_{k}$ tal que la arista $v_{k-1}v_{k}$ ha sido intersectada por $wp$ en algún punto (digamos, $z$). Así que, todo $bd(w,z)$(a excepción de $w$ y $z$) no es visible por $q$. Vaciamos el stack.\\
-        \vspace{0.5cm}
-        Ingresamos a $z$ y a $v_{k}$ al stack. Por lo que, $v_{k+1}$ se convierten en el nuevo $v_{i}$. Notemos que habíamos asumido que $uw$ es una \textit{constructed edge} calculada por el Caso 2a anteriormente. Puede suceder que la \textit{constructed edge} que termina en $u$ (digamos, uu’) haya sido calculada por el Caso 2b al final de la fase de backtracking. Esto significa que el vértice u’ es el último vértice en el stack que va a ser sacado en la fase de backtracking actual. Por lo tanto, $q$, $w$ y $z$ no son colineales. Los sacamos del stack y se convierte en la primera situación del backtracking actual.\\
-    \end{itemize}
+    \vspace{0.5cm}
+    \end{column}
+    \begin{column}{0.45\textwidth}  %%<--- here
+    \vspace{-2.5cm}
+        \begin{wrapfigure}{l}{1\textwidth}
+            \centering
+            \includegraphics[width=1\textwidth]{imagenes/Caso2.7b.png}
+            %\caption{}
+        \end{wrapfigure}
+    \end{column}
+    \end{columns}
 \end{frame}
+
 %------------------------------------------------
 
+\begin{frame}{Caso 2b.ii}
+    \textbf{$v_{i-1}v_{i}$ intersecta $uq$}\\
+    \vspace{0.2cm}
+    \begin{columns}
+    \begin{column}{0.45\textwidth}
+    \footnotesize
+        Ingresamos a $z$ y a $v_{k}$ al stack. Por lo que, $v_{k+1}$ se convierten en el nuevo $v_{i}$. Puede suceder que la \textit{constructed edge} que termina en $u$ (digamos, uu’) haya sido calculada por el Caso 2b al final de la fase de backtracking. Esto significa que el vértice u’ es el último vértice en el stack que va a ser sacado en la fase de backtracking actual. Por lo tanto, $q$, $w$ y $z$ no son colineales. Los sacamos del stack y notemos que nos encontramos la primera situación del backtracking actual.\\
+    \vspace{0.5cm}
+    \end{column}
+    \begin{column}{0.45\textwidth}  %%<--- here
+    \vspace{-2cm}
+        \begin{wrapfigure}{l}{1\textwidth}
+            \centering
+            \includegraphics[width=1\textwidth]{imagenes/Caso2.7b.png}
+            %\caption{}
+        \end{wrapfigure}
+    \end{column}
+    \end{columns}
+\end{frame}
+
+%------------------------------------------------
+
+\makesection{Algoritmo para calcular $V(q)$}
+
+%------------------------------------------------
 % Algoritmo presentado formalmente
 \begin{frame}{Algoritmo para calcular $V(q)$}
     \begin{enumerate}
@@ -567,18 +726,24 @@ Universidad Nacional Autónoma de México
             \item Generamos $V(q)$ sacando todos los vértices y puntos del stack y nos detenemos.
     \end{enumerate}
 \end{frame}
+
+
+
 %------------------------------------------------
 
-\begin{frame}{Correctez}
+\begin{frame}{Complejidad del algoritmo}
     \begin{block}{Invariante}
          El algoritmo mantiene una invariante de que los vértices y puntos en la pila en cualquier etapa están ordenados angularmente con respecto a q.
     \end{block}    
-\end{frame}
-
-%------------------------------------------------
-
-\begin{frame}{}
-    
+    \vspace{0.5cm}
+    Revisemos paso a paso la complejidad del algoritmo
+        \begin{enumerate}
+            \item Inicialización: $O(1)$
+            \item La ejecución recorre los n vértices una vez y para cada vértice se realizan operaciones en el stack: $O(n)$
+        \end{enumerate}
+    \begin{center}
+        \textbf{Complejidad Total: $O(n)$}
+    \end{center}
 \end{frame}
 
 %------------------------------------------------
@@ -587,13 +752,6 @@ Universidad Nacional Autónoma de México
     \begin{block}{Teorema}
         El polígono de visibilidad $V(q)$ de un punto dado $q$ dentro de un polígono simple de $n$ lados $P$ de puede ser calculado en tiempo $O(n)$.
     \end{block}
-\end{frame}
-
-%------------------------------------------------
-% Refenrenced
-\begin{frame}[allowframebreaks]{Referencias}
-    % Beamer does not support BibTeX so references must be inserted manually as below
-   %\printbibliography[heading=none]
 \end{frame}
 
 %----------------------------------------------------------------------------------------
