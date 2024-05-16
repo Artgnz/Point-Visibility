@@ -1,4 +1,4 @@
-This is LuaHBTeX, Version 1.12.0 (TeX Live 2020)  (format=lualatex 2024.5.12)  15 MAY 2024 21:25
+This is LuaHBTeX, Version 1.12.0 (TeX Live 2020)  (format=lualatex 2024.5.12)  15 MAY 2024 22:30
  restricted system commands enabled.
 **main.tex
 (./main.tex
@@ -2080,7 +2080,7 @@ Overfull \hbox (28.51598pt too wide) in paragraph at lines 618--618
  []
 
 
-Overfull \vbox (6.80724pt too high) detected at line 618
+Overfull \vbox (4.71306pt too high) detected at line 618
  []
 
 [27
@@ -2153,14 +2153,12 @@ Overfull \vbox (1.11407pt too high) detected at line 712
 
 ] [35
 
-] [36
-
 ]
 File: AICStyleData/logos/azul.png Graphic file (type png)
 <use AICStyleData/logos/azul.png>
 Package luatex.def Info: AICStyleData/logos/azul.png  used on input line 781.
 (luatex.def)             Requested size: 455.24408pt x 256.07095pt.
- [37
+ [36
 
 ]
 \tf@nav=\write8
@@ -2182,13 +2180,17 @@ Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 783.
 Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 783.
 Package rerunfilecheck Info: File `main.out' has not changed.
 (rerunfilecheck)             Checksum: 0DB6959915828B24FDCE12B0CE747C46;1216.
+
+
+LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
+
 Package logreq Info: Writing requests to 'main.run.xml'.
 
 \openout1 = main.run.xml
 )
 
 Here is how much of LuaTeX's memory you used:
- 48513 strings out of 480991
+ 48493 strings out of 480991
  125171,1977958 words of node,token memory allocated
  8437 words of node memory still in use:
    99 hlist, 13 vlist, 8 rule, 43 disc, 11 local_par, 2 math, 213 glue, 34 kern,
@@ -2196,7 +2198,7 @@ Here is how much of LuaTeX's memory you used:
 , 1 save_pos, 216 pdf_literal, 26 pdf_colorstack nodes
    avail lists: 1:6,2:1889,3:363,4:144,5:431,6:35,7:3249,8:33,9:376,10:23,11:272
 
- 64156 multiletter control sequences out of 65536+600000
+ 64138 multiletter control sequences out of 65536+600000
  131 fonts using 14604979 bytes
  64i,20n,115p,1600b,2607s stack positions out of 5000i,500n,10000p,200000b,100000s
 </usr/share/texlive/texmf-dist/fonts/opentype/public/lm/lmroman9-regular.otf></u
@@ -2217,10 +2219,10 @@ t/fonts/type1/public/amsfonts/cm/cmsy6.pfb></usr/share/texlive/texmf-dist/fonts/
 type1/public/amsfonts/cm/cmsy7.pfb></usr/share/texlive/texmf-dist/fonts/type1/pu
 blic/amsfonts/cm/cmsy8.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/ams
 fonts/cm/cmsy9.pfb>
-Output written on main.pdf (37 pages, 997406 bytes).
+Output written on main.pdf (36 pages, 995567 bytes).
 
-PDF statistics: 390 PDF objects out of 1000 (max. 8388607)
- 276 compressed objects within 3 object streams
- 85 named destinations out of 1000 (max. 131072)
+PDF statistics: 385 PDF objects out of 1000 (max. 8388607)
+ 272 compressed objects within 3 object streams
+ 83 named destinations out of 1000 (max. 131072)
  87 words of extra memory for PDF output out of 10000 (max. 100000000)
 

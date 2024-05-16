@@ -325,7 +325,7 @@ Universidad Nacional Autónoma de México
 %------------------------------------------------
 
 \begin{frame}[c]
-    Existen dos situaciones dependiendo si $q$ se encuentra dentro del cierre convexo de $P$ o no.
+    Existen dos situaciones:
     \begin{itemize}
         \item $q$ se encuentra fuera del cierre convexo de  $P$
         \item $q$ se encuentra fuera de $P$ pero dentro del cierre convexo de $P$
@@ -524,7 +524,7 @@ Universidad Nacional Autónoma de México
     \small
         El vértice $v_{i-1}$ y algunos de los vértices anteriores de $v_{i}$ (quien está actualmente en el stack) no son visibles desde $q$. Sacamos a $v_{i}$ del stack. \\
         \vspace{0.5cm}
-        Sea $u$ vértice que se encuentra en la parte superior del stack. La arista $v_{i-1}v_{i}$ es conocida como \textit{forward edge}. Mientras $v_{i-1}v_{i}$ intersecta $uq$ y $u$ es un vértice de $P$, realizamos pop al stack.\\
+        Sea $u$ vértice que se encuentra en la parte superior del stack. La arista $v_{i-1}v_{i}$ es conocida como \textit{arista frontal}. Mientras $v_{i-1}v_{i}$ intersecta $uq$ y $u$ es un vértice de $P$, realizamos pop al stack.\\
     \end{column}
     \begin{column}{0.45\textwidth}  %%<--- here
     \vspace{-1.5cm}
@@ -555,7 +555,7 @@ Universidad Nacional Autónoma de México
     \textbf{$v_{i-1}v_{i}$ no intersecta $uq$}\\ 
     \begin{columns}
     \begin{column}{0.45\textwidth}
-    Si $v_{i+1}$ se encuentra a la derecha de $\overrightarrow{qv_{i}}$, el backtracking continua con $v_{i}v_{i+1}$ como la \textit{forward edge} actual.
+    Si $v_{i+1}$ se encuentra a la derecha de $\overrightarrow{qv_{i}}$, el backtracking continua con $v_{i}v_{i+1}$ como la \textit{arista frontal} actual.
         \begin{wrapfigure}{c}{0.6\textwidth}
             \centering
             \includegraphics[width=0.6\textwidth]{imagenes/Caso2.5b.png}
@@ -604,7 +604,7 @@ Universidad Nacional Autónoma de México
     \begin{column}{0.45\textwidth}
     Ingresamos $m$ y $v_{i+1}$ al stack y $v_{i+1}$ se convierte en el nuevo $v_{i}$.\\
     \vspace{0.5cm}
-    Si $v_{i+1}$ se encuentra a la izquierda de $\overrightarrow{v_{i-1}v_{i}}$, revisamos $bd(v_{i+1}, v_{n})$ desde $v_{i+1}$ hasta que un vértice $v_{k}$ es encontrado de manera que la arista $v_{k-1}v_{k}$ intersecta $mv_{i}$. El backtracking continua con $v_{k-1}v_{k}$ como la \textit{forward edge} actual.    
+    Si $v_{i+1}$ se encuentra a la izquierda de $\overrightarrow{v_{i-1}v_{i}}$, revisamos $bd(v_{i+1}, v_{n})$ desde $v_{i+1}$ hasta que un vértice $v_{k}$ es encontrado de manera que la arista $v_{k-1}v_{k}$ intersecta $mv_{i}$. El backtracking continua con $v_{k-1}v_{k}$ como la \textit{arista frontal} actual.    
     \end{column}
     \begin{column}{0.45\textwidth}  %%<--- here
     \vspace{-1.5cm}
@@ -648,7 +648,7 @@ Universidad Nacional Autónoma de México
     \begin{column}{0.45\textwidth}
         Sea $p$ el punto de intersección de $uq$ y $v_{i-1}v_{i}$. Si $p \in qw$, la visibilidad de ambos, $u$ y $w$ desde $q$ esta bloqueada por $v_{i-1}v_{i}$. Vaciamos el stack.\\
         \vspace{0.5cm}
-        El backtracking continua y $v_{i-1}v_{i}$ permanece como la \textit{forward edge}.\\
+        El backtracking continua y $v_{i-1}v_{i}$ permanece como la \textit{arista frontal}.\\
     \vspace{0.5cm}
     \end{column}
     \begin{column}{0.45\textwidth}  %%<--- here
@@ -767,11 +767,11 @@ Universidad Nacional Autónoma de México
 
 %------------------------------------------------
 
-\begin{frame}{Teorema}
-    \begin{block}{Teorema}
-        El polígono de visibilidad $V(q)$ de un punto dado $q$ dentro de un polígono simple de $n$ lados $P$ de puede ser calculado en tiempo $O(n)$.
-    \end{block}
-\end{frame}
+%\begin{frame}{Teorema}
+%    \begin{block}{Teorema}
+%        El polígono de visibilidad $V(q)$ de un punto dado $q$ dentro de un polígono simple de $n$ lados $P$ de puede ser calculado en tiempo $O(n)$.
+%    \end{block}
+%\end{frame}
 
 % %----------------------------------------------------------------------------------------
 % Final PAGE
