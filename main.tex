@@ -152,11 +152,11 @@ Universidad Nacional Autónoma de México
 
 %-----------------------------------------------
 
-
 % Section divider frame
 \makesection{Introducción}
-\subsection{Entendiendo el problema}
+%\subsection{Entendiendo el problema}
 \subsection{Definiciones Fundamentales}
+\subsection{Algoritmo para cierre convexo en O(n)}
 
 %------------------------------------------------
 
@@ -170,41 +170,41 @@ Universidad Nacional Autónoma de México
 \end{frame}
 
 %------------------------------------------------
-% Double columns
-\begin{frame}{}
-    \begin{columns}
-    \begin{column}{0.45\textwidth}
-        \begin{wrapfigure}{l}{0.8\textwidth}
-            \centering
-            \includegraphics[width=0.9\textwidth]{imagenes/Case2.1a.png}
-            %\caption{}
-        \end{wrapfigure}
-    \end{column}
-    \begin{column}{0.45\textwidth}  %%<--- here
-        \begin{wrapfigure}{l}{0.8\textwidth}
-            \centering
-            \includegraphics[width=0.9\textwidth]{imagenes/Case2.1b.png}
-            %\caption{}
-        \end{wrapfigure}
-    \end{column}
+% Tres columnas
+\begin{frame}
+    \begin{columns}[t]
+        % Primera columna
+        \begin{column}{0.33\textwidth}
+            \begin{figure}
+                \centering
+                \includegraphics[width=0.9\textwidth]{imagenes/Case2.1a.png}
+                \caption{Polígono simple}
+            \end{figure}
+        \end{column}
+
+        % Segunda columna
+        \begin{column}{0.33\textwidth}
+            \begin{figure}
+                \centering
+                \includegraphics[width=0.9\textwidth]{imagenes/Case2.1b.png}
+                \caption{Polígono con hoyos}
+            \end{figure}
+        \end{column}
+
+        % Tercera columna
+        \begin{column}{0.33\textwidth}
+          \begin{figure}
+            \hspace*{-1.5cm}
+                \centering
+                \includegraphics[width=1.15\textwidth]{imagenes/Caso2.1c.png}
+                \caption{Conjunto de lineas}
+            \end{figure}
+        \end{column}
     \end{columns}
 \end{frame}
 
 %------------------------------------------------
-% Double columns
-\begin{frame}
-    % \begin{wrapfigure}{c}{0.7\textwidth}
-    %     \centering
-    %     \includegraphics[width=0.7\textwidth]{imagenes/Caso2.1c.png}
-    %     %\caption{}
-    % \end{wrapfigure}
-%    \hspace*{1cm}
-        \includegraphics[width=0.8\textwidth]{imagenes/Caso2.1c.png}
-\end{frame}
-
-%------------------------------------------------
-% Double columns
-\begin{frame}{Constructed edge}
+\begin{frame}{Arista construida}
     Sea $ab$ una arista en el perímetro de $V(q)$ de manera que
     \begin{columns}
     \begin{column}{0.45\textwidth}
@@ -215,7 +215,7 @@ Universidad Nacional Autónoma de México
     	\end{itemize}
          \vspace{0.5cm}
         \begin{center}
-            La arista $ab$ se llama \textit{constructed edge} de $V(q)$
+            La arista $ab$ se llama \textit{arista construida} de $V(q)$
         \end{center}
     \end{column}
     \begin{column}{0.45\textwidth}  %%<--- here
@@ -294,17 +294,32 @@ Universidad Nacional Autónoma de México
 \begin{frame}{El problema}
 \textbf{Non-winding polygon: O(n) algorithm}\\
     \vspace{0.5cm}
-    El problema de la visibilidad de puntos en polígonos non-windings se centra en determinar qué puntos dentro de dichos polígonos son visibles desde un punto de referencia específico.
 \end{frame}
 
 %------------------------------------------------
 
-\begin{frame}[c]
-\textbf{Non-winding polygon: O(n) algorithm}\\
+\begin{frame}
+%\textbf{Non-winding polygon: O(n) algorithm}\\
     \vspace{0.5cm}
     El primer paso del algoritmo es determinar si $q$ se encuentra dentro o fuera de $P$.\\
-    \vspace{0.5cm}
-    Si $q$ se encuentra fuera de $P$, se construye un polígono simple $P’$ a partir de $P$ de manera que $q \in P’$ y $V(q) \subseteq P’$. Luego, el proceso para calcular el polígono de visibilidad a partir de un punto interno puede ser utilizado para calcular $V(q) \in P’$ como  $q \in P’$.\\
+    \begin{columns}
+      \begin{column}{0.45\textwidth}
+        \begin{wrapfigure}{c}{0.8\textwidth}
+          \centering
+          \includegraphics[width=0.8\textwidth]{imagenes/Caso1.1.png}
+          \caption{q se encuentra dentro de P}
+        \end{wrapfigure}
+      \end{column}
+      \begin{column}{0.45\textwidth}  %%<--- here
+        \begin{wrapfigure}{c}{0.8\textwidth}
+          \centering
+          \includegraphics[width=0.8\textwidth]{imagenes/Caso1.2.png}
+          \caption{q se encuentra fuera de P}
+        \end{wrapfigure}
+      \end{column}
+    \end{columns}
+    %    \vspace{0.5cm}
+%    Si $q$ se encuentra fuera de $P$, se construye un polígono simple $P’$ a partir de $P$ de manera que $q \in P’$ y $V(q) \subseteq P’$. Luego, el proceso para calcular el polígono de visibilidad a partir de un punto interno puede ser utilizado para calcular $V(q) \in P’$ como  $q \in P’$.\\
 \end{frame}
 
 %------------------------------------------------
@@ -372,7 +387,7 @@ Universidad Nacional Autónoma de México
 %------------------------------------------------
 
 \begin{frame}[c]
-    A partir de ahora, se considera que el punto $q$ es un punto interno de $P$. Por lo que, de ahora en adelante, se asume que $bd(P)$ no wind alrededor de q.
+    A partir de ahora, se considera que el punto $q$ es un punto interno de $P$. Por lo que, de ahora en adelante, se asume que $bd(P)$ no tiene \textit{winding} alrededor de q.
     \vspace{0.5cm}
     \begin{center}
         \textbf{El problema es calcular $V(q)$ de $P$ de $q$.}
@@ -381,13 +396,13 @@ Universidad Nacional Autónoma de México
 
 %------------------------------------------------
 
-\begin{frame}[c]
-   Sea $v_{0}$ el punto más cercano a $q$ entre los puntos de intersección de $bd(P)$ con la línea horizontal trazada desde $q$ a la derecha de $q$.
-   \vspace{0.5cm}
-   Asumimos que los vértices de $P$ están etiquetados de la siguiente forma: $v_{1},v_{2}, v_{3}, \dots , v_{n}$ en sentido antihorario con $v_{1}$ como el siguiente vértice en sentido antihorario después de $v_{0}$.
-   \vspace{0.5cm}
-   Asumimos que el proceso para calcular a $V(q)$ ha recorrido $bd(P)$ en el sentido contrario a las manecillas del reloj desde $v_{1}$ hasta $v_{i-1}$ y $v_{i}$ es nuestro vértice actual.
-\end{frame}
+%\begin{frame}[c]
+%   Sea $v_{0}$ el punto más cercano a $q$ entre los puntos de intersección de $bd(P)$ con la línea horizontal trazada desde $q$ a la derecha de $q$.
+ %  \vspace{0.5cm}
+  % Asumimos que los vértices de $P$ están etiquetados de la siguiente forma: $v_{1},v_{2}, v_{3}, \dots , v_{n}$ en sentido antihorario con $v_{1}$ como el siguiente vértice en sentido antihorario después de $v_{0}$.
+   %\vspace{0.5cm}
+   %Asumimos que el proceso para calcular a $V(q)$ ha recorrido $bd(P)$ en el sentido contrario a las manecillas del reloj desde $v_{1}$ hasta $v_{i-1}$ y $v_{i}$ es nuestro vértice actual.
+%\end{frame}
 
 %------------------------------------------------
 
@@ -396,7 +411,7 @@ Universidad Nacional Autónoma de México
        Sea $bd(v_{j}, v_{k})$ el límite en sentido antihorario de $P$ desde $v_{j}$ hasta $v_{k}$.    
    \end{block}
    \vspace{0.5cm}
-   También asumimos que los vértices (y los puntos finales de las \textit{constructed edges}) en $bd(v_{0} v_{i-1})$, las cuales se encuentran para ser visibles desde $q$ por el procedimiento, son colocadas en un stack en el orden en que son encontradas, donde $v_{0}$ y $v_{i-1}$ están en la parte inferior y superior del stack, respectivamente.\\  
+   También asumimos que los vértices (y los puntos finales de las \textit{aristas construidas}) en $bd(v_{0} v_{i-1})$, las cuales se encuentran para ser visibles desde $q$ por el procedimiento, son colocadas en un stack en el orden en que son encontradas, donde $v_{0}$ y $v_{i-1}$ están en la parte inferior y superior del stack, respectivamente.\\  
 \end{frame}
 
 %------------------------------------------------
@@ -486,7 +501,7 @@ Universidad Nacional Autónoma de México
     \vspace{0.5cm}
     \begin{columns}
     \begin{column}{0.45\textwidth}
-        Veamos que $v_{k}$ se encuentra a la izquierda de $\overrightarrow{qv_{v_{i-1}}}$ ya que $bd(P)$ does not wind around $q$. Entonces, ningún vértice de $bd(v_{i}, v_{v_{k-1}})$ es visible desde $q$ y por consiguiente, $z$ es el siguiente punto de $v_{i-1}$ en $bd(v_{i-1}, v_{n})$ visible desde $q$. Así que, $v_{i}z$ es un \textit{constructed edge} de $V(q)$, donde $q$, $v_{i-1}$ y $z$ son puntos colineales.
+        Veamos que $v_{k}$ se encuentra a la izquierda de $\overrightarrow{qv_{v_{i-1}}}$ ya que $bd(P)$ does not wind around $q$. Entonces, ningún vértice de $bd(v_{i}, v_{v_{k-1}})$ es visible desde $q$ y por consiguiente, $z$ es el siguiente punto de $v_{i-1}$ en $bd(v_{i-1}, v_{n})$ visible desde $q$. Así que, $v_{i}z$ es una \textit{arista construida} de $V(q)$, donde $q$, $v_{i-1}$ y $z$ son puntos colineales.
     \end{column}
     \begin{column}{0.45\textwidth}  %%<--- here
     \vspace{-1.5cm} % Ajuste vertical aquí
@@ -541,7 +556,7 @@ Universidad Nacional Autónoma de México
     \begin{columns}
     \begin{column}{0.45\textwidth}
     Si $v_{i+1}$ se encuentra a la derecha de $\overrightarrow{qv_{i}}$, el backtracking continua con $v_{i}v_{i+1}$ como la \textit{forward edge} actual.
-        \begin{wrapfigure}{l}{0.6\textwidth}
+        \begin{wrapfigure}{c}{0.6\textwidth}
             \centering
             \includegraphics[width=0.6\textwidth]{imagenes/Caso2.5b.png}
             %\caption{}
@@ -549,7 +564,7 @@ Universidad Nacional Autónoma de México
     \end{column}
     \begin{column}{0.45\textwidth}  %%<--- here
         De otra forma, $v_{i+1}$ se encuentra a la izquierda de $\overrightarrow{qv_{i}}.$
-        \begin{wrapfigure}{l}{0.5\textwidth}
+        \begin{wrapfigure}{c}{0.5\textwidth}
             \centering
             \includegraphics[width=0.5\textwidth]{imagenes/Caso2.6a.png}
             %\caption{}
@@ -570,7 +585,7 @@ Universidad Nacional Autónoma de México
         Si $v_{i+1}$ se encuentra a la derecha de $\overrightarrow{v_{i-1}v_{i}}$, entonces termina el backtracking.
     \end{column}
     \begin{column}{0.45\textwidth}  %%<--- here
-    \vspace{-1.5cm}
+    \vspace{-2.5cm}
         \begin{wrapfigure}{l}{0.75\textwidth}
             \centering
             \includegraphics[width=0.75\textwidth]{imagenes/Caso2.6a.png}
@@ -610,7 +625,7 @@ Universidad Nacional Autónoma de México
     \vspace{0.5cm}
     \begin{columns}
     \begin{column}{0.45\textwidth}
-    $u$ no es un vértice de $P$. Sea $w$ el vértice que se encuentra justo debajo de $u$ en el stack. Por lo que, $uw$ es un \textit{constructed edge}\\
+    $u$ no es un vértice de $P$. Sea $w$ el vértice que se encuentra justo debajo de $u$ en el stack. Por lo que, $uw$ es una \textit{arista construida}\\
     \vspace{0.5cm}
     \end{column}
     \begin{column}{0.45\textwidth}  %%<--- here
@@ -678,7 +693,7 @@ Universidad Nacional Autónoma de México
     \begin{columns}
     \begin{column}{0.45\textwidth}
     \footnotesize
-        Ingresamos a $z$ y a $v_{k}$ al stack. Por lo que, $v_{k+1}$ se convierten en el nuevo $v_{i}$. Puede suceder que la \textit{constructed edge} que termina en $u$ (digamos, uu’) haya sido calculada por el Caso 2b al final de la fase de backtracking. Esto significa que el vértice u’ es el último vértice en el stack que va a ser sacado en la fase de backtracking actual. Por lo tanto, $q$, $w$ y $z$ no son colineales. Los sacamos del stack y notemos que nos encontramos la primera situación del backtracking actual.\\
+        Ingresamos a $z$ y a $v_{k}$ al stack. Por lo que, $v_{k+1}$ se convierten en el nuevo $v_{i}$. Puede suceder que la \textit{arista construida} que termina en $u$ (digamos, uu’) haya sido calculada por el Caso 2b al final de la fase de backtracking. Esto significa que el vértice u’ es el último vértice en el stack que va a ser sacado en la fase de backtracking actual. Por lo tanto, $q$, $w$ y $z$ no son colineales. Los sacamos del stack y notemos que nos encontramos la primera situación del backtracking actual.\\
     \vspace{0.5cm}
     \end{column}
     \begin{column}{0.45\textwidth}  %%<--- here
