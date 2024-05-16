@@ -13,7 +13,7 @@
 \usepackage{tikz}
 \usepackage{makecell}
 \usepackage{amsmath} % For \textsubscript command
-\usepackage[english]{babel}
+\usepackage[spanish]{babel}
 \usepackage[backend=biber, style=apa]{biblatex}
 \addbibresource{test.bib}
 \usepackage{wrapfig}
@@ -174,14 +174,14 @@ Universidad Nacional Autónoma de México
 \begin{frame}{}
     \begin{columns}
     \begin{column}{0.45\textwidth}
-        \begin{wrapfigure}{l}{0.9\textwidth}
+        \begin{wrapfigure}{l}{0.8\textwidth}
             \centering
             \includegraphics[width=0.9\textwidth]{imagenes/Case2.1a.png}
             %\caption{}
         \end{wrapfigure}
     \end{column}
     \begin{column}{0.45\textwidth}  %%<--- here
-        \begin{wrapfigure}{l}{0.9\textwidth}
+        \begin{wrapfigure}{l}{0.8\textwidth}
             \centering
             \includegraphics[width=0.9\textwidth]{imagenes/Case2.1b.png}
             %\caption{}
@@ -192,12 +192,14 @@ Universidad Nacional Autónoma de México
 
 %------------------------------------------------
 % Double columns
-\begin{frame}{}
-    \begin{wrapfigure}{l}{0.9\textwidth}
-        \centering
-        \includegraphics[width=0.9\textwidth]{imagenes/Caso2.1c.png}
-        %\caption{}
-    \end{wrapfigure}
+\begin{frame}
+    % \begin{wrapfigure}{c}{0.7\textwidth}
+    %     \centering
+    %     \includegraphics[width=0.7\textwidth]{imagenes/Caso2.1c.png}
+    %     %\caption{}
+    % \end{wrapfigure}
+%    \hspace*{1cm}
+        \includegraphics[width=0.8\textwidth]{imagenes/Caso2.1c.png}
 \end{frame}
 
 %------------------------------------------------
@@ -217,6 +219,7 @@ Universidad Nacional Autónoma de México
         \end{center}
     \end{column}
     \begin{column}{0.45\textwidth}  %%<--- here
+    \vspace{-1cm}
     %$uw$ es una arista de construcción
         \begin{wrapfigure}{l}{0.65\textwidth}
             \centering
@@ -285,8 +288,6 @@ Universidad Nacional Autónoma de México
 %------------------------------------------------
 % Section divider frame
 \makesection{Calculando la visibilidad de un punto}
-\subsection{Algoritmo}
-\subsection{Correctez}
 
 %------------------------------------------------
 
@@ -333,6 +334,7 @@ Universidad Nacional Autónoma de México
     \end{block}
     \end{column}
     \begin{column}{0.45\textwidth}  %%<--- here
+    \vspace{-1cm}
         \begin{wrapfigure}{l}{0.9\textwidth}
             \centering
             \includegraphics[width=0.9\textwidth]{imagenes/Caso01.png}
@@ -379,23 +381,23 @@ Universidad Nacional Autónoma de México
 
 %------------------------------------------------
 
-%\begin{frame}[c]
-%    Sea $v_{0}$ el punto más cercano a $q$ entre los puntos de intersección de $bd(P)$ con la línea horizontal trazada desde $q$ a la derecha de $q$.
-%    \vspace{0.5cm}
-%    Asumimos que los vértices de $P$ están etiquetados de la siguiente forma: $v_{1},v_{2}, v_{3}, \dots , v_{n}$ en sentido antihorario con $v_{1}$ como el siguiente vértice en sentido antihorario después de $v_{0}$.
-%    \vspace{0.5cm}
-%    Asumimos que el proceso para calcular a $V(q)$ ha recorrido $bd(P)$ en el sentido contrario a las manecillas del reloj desde $v_{1}$ hasta $v_{i-1}$ y $v_{i}$ es nuestro vértice actual.
-%\end{frame}
+\begin{frame}[c]
+   Sea $v_{0}$ el punto más cercano a $q$ entre los puntos de intersección de $bd(P)$ con la línea horizontal trazada desde $q$ a la derecha de $q$.
+   \vspace{0.5cm}
+   Asumimos que los vértices de $P$ están etiquetados de la siguiente forma: $v_{1},v_{2}, v_{3}, \dots , v_{n}$ en sentido antihorario con $v_{1}$ como el siguiente vértice en sentido antihorario después de $v_{0}$.
+   \vspace{0.5cm}
+   Asumimos que el proceso para calcular a $V(q)$ ha recorrido $bd(P)$ en el sentido contrario a las manecillas del reloj desde $v_{1}$ hasta $v_{i-1}$ y $v_{i}$ es nuestro vértice actual.
+\end{frame}
 
 %------------------------------------------------
 
-%\begin{frame}[c]
-%    \begin{block}{Observación}
-%        Sea $bd(v_{j}, v_{k})$ el límite en sentido antihorario de $P$ desde $v_{j}$ hasta $v_{k}$.    
-%    \end{block}
-%    \vspace{0.5cm}
-%    También asumimos que los vértices (y los puntos finales de las \textit{constructed edges}) en $bd(v_{0} v_{i-1})$, las cuales se encuentran para ser visibles desde $q$ por el procedimiento, son colocadas en un stack en el orden en que son encontradas, donde $v_{0}$ y $v_{i-1}$ están en la parte inferior y superior del stack, respectivamente.\\  
-%\end{frame}
+\begin{frame}[c]
+   \begin{block}{Observación}
+       Sea $bd(v_{j}, v_{k})$ el límite en sentido antihorario de $P$ desde $v_{j}$ hasta $v_{k}$.    
+   \end{block}
+   \vspace{0.5cm}
+   También asumimos que los vértices (y los puntos finales de las \textit{constructed edges}) en $bd(v_{0} v_{i-1})$, las cuales se encuentran para ser visibles desde $q$ por el procedimiento, son colocadas en un stack en el orden en que son encontradas, donde $v_{0}$ y $v_{i-1}$ están en la parte inferior y superior del stack, respectivamente.\\  
+\end{frame}
 
 %------------------------------------------------
 
@@ -539,24 +541,24 @@ Universidad Nacional Autónoma de México
     \begin{columns}
     \begin{column}{0.45\textwidth}
     Si $v_{i+1}$ se encuentra a la derecha de $\overrightarrow{qv_{i}}$, el backtracking continua con $v_{i}v_{i+1}$ como la \textit{forward edge} actual.
-        \begin{wrapfigure}{c}{1.2\textwidth}
+        \begin{wrapfigure}{l}{0.6\textwidth}
             \centering
-            \includegraphics[width=1.2\textwidth]{imagenes/Case2.2a.png}
+            \includegraphics[width=0.6\textwidth]{imagenes/Caso2.5b.png}
             %\caption{}
         \end{wrapfigure}
     \end{column}
     \begin{column}{0.45\textwidth}  %%<--- here
         De otra forma, $v_{i+1}$ se encuentra a la izquierda de $\overrightarrow{qv_{i}}.$
-        \begin{wrapfigure}{c}{1.2\textwidth}
+        \begin{wrapfigure}{l}{0.5\textwidth}
             \centering
-            \includegraphics[width=1.2\textwidth]{imagenes/Caso2.2b.png}
+            \includegraphics[width=0.5\textwidth]{imagenes/Caso2.6a.png}
             %\caption{}
         \end{wrapfigure}
     \end{column}
     \end{columns}
 \end{frame}
 
-%------------------------------------------------
+% %------------------------------------------------
 
 \begin{frame}{Caso 2b.i}
     \textbf{$v_{i-1}v_{i}$ no intersecta $uq$}\\
@@ -693,6 +695,8 @@ Universidad Nacional Autónoma de México
 %------------------------------------------------
 
 \makesection{Algoritmo para calcular $V(q)$}
+\subsection{Algoritmo}
+\subsection{Complejidad}
 
 %------------------------------------------------
 % Algoritmo presentado formalmente
@@ -754,7 +758,7 @@ Universidad Nacional Autónoma de México
     \end{block}
 \end{frame}
 
-%----------------------------------------------------------------------------------------
+% %----------------------------------------------------------------------------------------
 % Final PAGE
 % Set the text that is showed on the final slide
 \finalpagetext{Gracias por su atención}
