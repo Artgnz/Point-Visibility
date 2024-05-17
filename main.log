@@ -1,4 +1,4 @@
-This is LuaHBTeX, Version 1.13.0 (TeX Live 2021)  (format=lualatex 2021.8.10)  16 MAY 2024 21:45
+This is LuaHBTeX, Version 1.13.0 (TeX Live 2021)  (format=lualatex 2021.8.10)  16 MAY 2024 23:43
  restricted system commands enabled.
 **main.tex
 (./main.tex
@@ -1922,7 +1922,7 @@ LaTeX Font Info:    Font shape `TU/Epilogue(0)/b/n' will be
 (Font)              scaled to size 18.66588pt on input line 148.
 LaTeX Font Info:    Font shape `TU/Epilogue(0)/b/n' will be
 (Font)              scaled to size 9.85492pt on input line 148.
-<AICStyleData/logos/azul.png, id=50, 1445.4pt x 813.0375pt>
+<AICStyleData/logos/azul.png, id=54, 1445.4pt x 813.0375pt>
 File: AICStyleData/logos/azul.png Graphic file (type png)
 <use AICStyleData/logos/azul.png>
 Package luatex.def Info: AICStyleData/logos/azul.png  used on input line 148.
@@ -1974,19 +1974,19 @@ LaTeX Font Info:    Font shape `TU/Epilogue(0)/m/it' will be
  [4
 
 ]
-<imagenes/Case2.1a.png, id=100, 626.34pt x 600.2425pt>
+<imagenes/Case2.1a.png, id=106, 626.34pt x 600.2425pt>
 File: imagenes/Case2.1a.png Graphic file (type png)
 <use imagenes/Case2.1a.png>
 Package luatex.def Info: imagenes/Case2.1a.png  used on input line 206.
 (luatex.def)             Requested size: 122.19873pt x 117.10634pt.
 LaTeX Font Info:    Font shape `TU/Epilogue(0)/m/n' will be
 (Font)              scaled to size 8.09995pt on input line 206.
-<imagenes/Case2.1b.png, id=101, 621.32124pt x 600.2425pt>
+<imagenes/Case2.1b.png, id=107, 621.32124pt x 600.2425pt>
 File: imagenes/Case2.1b.png Graphic file (type png)
 <use imagenes/Case2.1b.png>
 Package luatex.def Info: imagenes/Case2.1b.png  used on input line 206.
 (luatex.def)             Requested size: 122.19873pt x 118.04971pt.
-<imagenes/Caso2.1c.png, id=102, 769.87625pt x 579.16376pt>
+<imagenes/Caso2.1c.png, id=108, 769.87625pt x 579.16376pt>
 File: imagenes/Caso2.1c.png Graphic file (type png)
 <use imagenes/Caso2.1c.png>
 Package luatex.def Info: imagenes/Caso2.1c.png  used on input line 206.
@@ -1994,7 +1994,7 @@ Package luatex.def Info: imagenes/Caso2.1c.png  used on input line 206.
  [5
 
 <./imagenes/Case2.1a.png><./imagenes/Case2.1b.png><./imagenes/Caso2.1c.png>]
-<imagenes/Caso2.7a.png, id=111, 391.4625pt x 396.48125pt>
+<imagenes/Caso2.7a.png, id=117, 391.4625pt x 396.48125pt>
 File: imagenes/Caso2.7a.png Graphic file (type png)
 <use imagenes/Caso2.7a.png>
 Package luatex.def Info: imagenes/Caso2.7a.png  used on input line 233.
@@ -2004,7 +2004,7 @@ Package luatex.def Info: imagenes/Caso2.7a.png  used on input line 233.
 <./imagenes/Caso2.7a.png>] [7
 
 ]
-<imagenes/Case2.2a.png, id=123, 891.33pt x 584.1825pt>
+<imagenes/Case2.2a.png, id=129, 891.33pt x 584.1825pt>
 File: imagenes/Case2.2a.png Graphic file (type png)
 <use imagenes/Case2.2a.png>
 Package luatex.def Info: imagenes/Case2.2a.png  used on input line 264.
@@ -2014,7 +2014,7 @@ Overfull \hbox (47.02914pt too wide) in paragraph at lines 264--264
 []  
  []
 
-<imagenes/Caso2.2b.png, id=124, 962.59625pt x 630.355pt>
+<imagenes/Caso2.2b.png, id=130, 962.59625pt x 630.355pt>
 File: imagenes/Caso2.2b.png Graphic file (type png)
 <use imagenes/Caso2.2b.png>
 Package luatex.def Info: imagenes/Caso2.2b.png  used on input line 264.
@@ -2043,7 +2043,7 @@ LaTeX Font Info:    Font shape `TU/Epilogue(0)/m/n' will be
  [11
 
 ]
-<IPE/Melkman.pdf, id=155, page=1, 135.31554pt x 93.96405pt>
+<IPE/Melkman.pdf, id=161, page=1, 135.31554pt x 93.96405pt>
 File: IPE/Melkman.pdf Graphic file (type pdf)
 <use IPE/Melkman.pdf, page 1>
 Package luatex.def Info: IPE/Melkman.pdf , page1 used on input line 316.
@@ -2051,7 +2051,7 @@ Package luatex.def Info: IPE/Melkman.pdf , page1 used on input line 316.
  [12
 
 <./IPE/Melkman.pdf>]
-<IPE/Melkman.pdf, id=175, page=2, 135.31554pt x 93.96304pt>
+<IPE/Melkman.pdf, id=181, page=2, 135.31554pt x 93.96304pt>
 File: IPE/Melkman.pdf Graphic file (type pdf)
 <use IPE/Melkman.pdf, page 2>
 Package luatex.def Info: IPE/Melkman.pdf , page2 used on input line 323.
@@ -2059,7 +2059,7 @@ Package luatex.def Info: IPE/Melkman.pdf , page2 used on input line 323.
  [13
 
 <./IPE/Melkman.pdf>]
-<IPE/Melkman.pdf, id=181, page=3, 242.09949pt x 93.96304pt>
+<IPE/Melkman.pdf, id=187, page=3, 242.09949pt x 93.96304pt>
 File: IPE/Melkman.pdf Graphic file (type pdf)
 <use IPE/Melkman.pdf, page 3>
 Package luatex.def Info: IPE/Melkman.pdf , page3 used on input line 337.
@@ -2067,7 +2067,7 @@ Package luatex.def Info: IPE/Melkman.pdf , page3 used on input line 337.
  [14
 
 <./IPE/Melkman.pdf>]
-<IPE/Melkman.pdf, id=187, page=4, 225.87888pt x 93.96304pt>
+<IPE/Melkman.pdf, id=194, page=4, 225.87888pt x 93.96304pt>
 File: IPE/Melkman.pdf Graphic file (type pdf)
 <use IPE/Melkman.pdf, page 4>
 Package luatex.def Info: IPE/Melkman.pdf , page4 used on input line 350.
@@ -2075,7 +2075,7 @@ Package luatex.def Info: IPE/Melkman.pdf , page4 used on input line 350.
  [15
 
 <./IPE/Melkman.pdf>]
-<IPE/Melkman.pdf, id=194, page=5, 241.93889pt x 93.96304pt>
+<IPE/Melkman.pdf, id=200, page=5, 241.93889pt x 93.96304pt>
 File: IPE/Melkman.pdf Graphic file (type pdf)
 <use IPE/Melkman.pdf, page 5>
 Package luatex.def Info: IPE/Melkman.pdf , page5 used on input line 363.
@@ -2083,7 +2083,7 @@ Package luatex.def Info: IPE/Melkman.pdf , page5 used on input line 363.
  [16
 
 <./IPE/Melkman.pdf>]
-<IPE/Melkman.pdf, id=200, page=6, 241.93889pt x 93.96304pt>
+<IPE/Melkman.pdf, id=206, page=6, 241.93889pt x 93.96304pt>
 File: IPE/Melkman.pdf Graphic file (type pdf)
 <use IPE/Melkman.pdf, page 6>
 Package luatex.def Info: IPE/Melkman.pdf , page6 used on input line 376.
@@ -2091,7 +2091,7 @@ Package luatex.def Info: IPE/Melkman.pdf , page6 used on input line 376.
  [17
 
 <./IPE/Melkman.pdf>]
-<IPE/Melkman.pdf, id=206, page=7, 258.15948pt x 93.96304pt>
+<IPE/Melkman.pdf, id=212, page=7, 258.15948pt x 93.96304pt>
 File: IPE/Melkman.pdf Graphic file (type pdf)
 <use IPE/Melkman.pdf, page 7>
 Package luatex.def Info: IPE/Melkman.pdf , page7 used on input line 389.
@@ -2100,7 +2100,7 @@ Package luatex.def Info: IPE/Melkman.pdf , page7 used on input line 389.
 [18
 
 <./IPE/Melkman.pdf>]
-<IPE/Melkman.pdf, id=212, page=8, 241.93889pt x 93.96304pt>
+<IPE/Melkman.pdf, id=218, page=8, 241.93889pt x 93.96304pt>
 File: IPE/Melkman.pdf Graphic file (type pdf)
 <use IPE/Melkman.pdf, page 8>
 Package luatex.def Info: IPE/Melkman.pdf , page8 used on input line 402.
@@ -2108,7 +2108,7 @@ Package luatex.def Info: IPE/Melkman.pdf , page8 used on input line 402.
  [19
 
 <./IPE/Melkman.pdf>]
-<IPE/Melkman.pdf, id=218, page=9, 225.87888pt x 93.96304pt>
+<IPE/Melkman.pdf, id=224, page=9, 225.87888pt x 93.96304pt>
 File: IPE/Melkman.pdf Graphic file (type pdf)
 <use IPE/Melkman.pdf, page 9>
 Package luatex.def Info: IPE/Melkman.pdf , page9 used on input line 415.
@@ -2116,7 +2116,7 @@ Package luatex.def Info: IPE/Melkman.pdf , page9 used on input line 415.
  [20
 
 <./IPE/Melkman.pdf>]
-<IPE/Melkman.pdf, id=224, page=10, 241.93889pt x 93.96304pt>
+<IPE/Melkman.pdf, id=230, page=10, 241.93889pt x 93.96304pt>
 File: IPE/Melkman.pdf Graphic file (type pdf)
 <use IPE/Melkman.pdf, page 10>
 Package luatex.def Info: IPE/Melkman.pdf , page10 used on input line 428.
@@ -2125,7 +2125,7 @@ Package luatex.def Info: IPE/Melkman.pdf , page10 used on input line 428.
 [21
 
 <./IPE/Melkman.pdf>]
-<IPE/Melkman.pdf, id=231, page=11, 225.87888pt x 93.96304pt>
+<IPE/Melkman.pdf, id=237, page=11, 225.87888pt x 93.96304pt>
 File: IPE/Melkman.pdf Graphic file (type pdf)
 <use IPE/Melkman.pdf, page 11>
 Package luatex.def Info: IPE/Melkman.pdf , page11 used on input line 441.
@@ -2133,7 +2133,7 @@ Package luatex.def Info: IPE/Melkman.pdf , page11 used on input line 441.
  [22
 
 <./IPE/Melkman.pdf>]
-<IPE/Melkman.pdf, id=237, page=12, 209.97948pt x 93.96304pt>
+<IPE/Melkman.pdf, id=243, page=12, 209.97948pt x 93.96304pt>
 File: IPE/Melkman.pdf Graphic file (type pdf)
 <use IPE/Melkman.pdf, page 12>
 Package luatex.def Info: IPE/Melkman.pdf , page12 used on input line 454.
@@ -2141,273 +2141,568 @@ Package luatex.def Info: IPE/Melkman.pdf , page12 used on input line 454.
  [23
 
 <./IPE/Melkman.pdf>]
+<IPE/Melkman.pdf, id=249, page=13, 226.03947pt x 93.96304pt>
 File: IPE/Melkman.pdf Graphic file (type pdf)
-<use IPE/Melkman.pdf, page 12>
-Package luatex.def Info: IPE/Melkman.pdf , page12 used on input line 467.
-(luatex.def)             Requested size: 205.73041pt x 92.06165pt.
+<use IPE/Melkman.pdf, page 13>
+Package luatex.def Info: IPE/Melkman.pdf , page13 used on input line 467.
+(luatex.def)             Requested size: 205.72726pt x 85.5194pt.
 
 [24
 
+<./IPE/Melkman.pdf>] [25
+
 ]
-<IPE/pip.pdf, id=248, page=1, 330.51079pt x 241.3015pt>
+<IPE/pip.pdf, id=260, page=1, 330.51079pt x 241.3015pt>
 File: IPE/pip.pdf Graphic file (type pdf)
 <use IPE/pip.pdf, page 1>
-Package luatex.def Info: IPE/pip.pdf , page1 used on input line 487.
+Package luatex.def Info: IPE/pip.pdf , page1 used on input line 490.
 (luatex.def)             Requested size: 135.6162pt x 99.01157pt.
-<IPE/pip.pdf, id=249, page=2, 330.51079pt x 241.3015pt>
+<IPE/pip.pdf, id=261, page=2, 330.51079pt x 241.3015pt>
 File: IPE/pip.pdf Graphic file (type pdf)
 <use IPE/pip.pdf, page 2>
-Package luatex.def Info: IPE/pip.pdf , page2 used on input line 487.
+Package luatex.def Info: IPE/pip.pdf , page2 used on input line 490.
 (luatex.def)             Requested size: 135.6162pt x 99.01157pt.
 
-Overfull \vbox (13.68793pt too high) detected at line 487
+Overfull \vbox (13.68793pt too high) detected at line 490
  []
 
-[25
+[26
 
 <./IPE/pip.pdf><./IPE/pip.pdf>]
-<IPE/pip.pdf, id=263, page=3, 330.51079pt x 241.3015pt>
+<IPE/pip.pdf, id=275, page=3, 330.51079pt x 241.3015pt>
 File: IPE/pip.pdf Graphic file (type pdf)
 <use IPE/pip.pdf, page 3>
-Package luatex.def Info: IPE/pip.pdf , page3 used on input line 496.
-(luatex.def)             Requested size: 135.6162pt x 99.01157pt.
- [26
-
-<./IPE/pip.pdf>]
-<IPE/pip.pdf, id=269, page=4, 330.51079pt x 241.3015pt>
-File: IPE/pip.pdf Graphic file (type pdf)
-<use IPE/pip.pdf, page 4>
-Package luatex.def Info: IPE/pip.pdf , page4 used on input line 511.
+Package luatex.def Info: IPE/pip.pdf , page3 used on input line 499.
 (luatex.def)             Requested size: 135.6162pt x 99.01157pt.
  [27
 
 <./IPE/pip.pdf>]
-[28
+<IPE/pip.pdf, id=281, page=4, 330.51079pt x 241.3015pt>
+File: IPE/pip.pdf Graphic file (type pdf)
+<use IPE/pip.pdf, page 4>
+Package luatex.def Info: IPE/pip.pdf , page4 used on input line 514.
+(luatex.def)             Requested size: 135.6162pt x 99.01157pt.
+ [28
 
-]
-Overfull \vbox (1.11407pt too high) detected at line 525
- []
-
+<./IPE/pip.pdf>]
 [29
 
-] [30
+]
+Overfull \vbox (1.11407pt too high) detected at line 528
+ []
+
+[30
+
+] [31
 
 ]
-<imagenes/Caso1.1.png, id=292, 372.64218pt x 236.38312pt>
+<imagenes/Caso1.1.png, id=305, 372.64218pt x 236.38312pt>
 File: imagenes/Caso1.1.png Graphic file (type png)
 <use imagenes/Caso1.1.png>
-Package luatex.def Info: imagenes/Caso1.1.png  used on input line 558.
+Package luatex.def Info: imagenes/Caso1.1.png  used on input line 561.
 (luatex.def)             Requested size: 148.11942pt x 93.95642pt.
-<imagenes/Caso1.2.png, id=293, 365.86688pt x 236.38312pt>
+<imagenes/Caso1.2.png, id=306, 365.86688pt x 236.38312pt>
 File: imagenes/Caso1.2.png Graphic file (type png)
 <use imagenes/Caso1.2.png>
-Package luatex.def Info: imagenes/Caso1.2.png  used on input line 558.
+Package luatex.def Info: imagenes/Caso1.2.png  used on input line 561.
 (luatex.def)             Requested size: 148.11942pt x 95.69856pt.
- [31
+ [32
 
-<./imagenes/Caso1.1.png><./imagenes/Caso1.2.png>] [32
+<./imagenes/Caso1.1.png><./imagenes/Caso1.2.png>] [33
 
 ]
-<imagenes/Caso01.png, id=307, 571.13374pt x 579.16376pt>
+<imagenes/Caso01.png, id=319, 571.13374pt x 579.16376pt>
 File: imagenes/Caso01.png Graphic file (type png)
 <use imagenes/Caso01.png>
-Package luatex.def Info: imagenes/Caso01.png  used on input line 595.
+Package luatex.def Info: imagenes/Caso01.png  used on input line 598.
 (luatex.def)             Requested size: 166.63258pt x 168.96947pt.
- [33
+ [34
 
 <./imagenes/Caso01.png>]
-<imagenes/Caso02.png, id=315, 459.7175pt x 334.24875pt>
+<imagenes/Caso02.png, id=327, 459.7175pt x 334.24875pt>
 File: imagenes/Caso02.png Graphic file (type png)
 <use imagenes/Caso02.png>
-Package luatex.def Info: imagenes/Caso02.png  used on input line 620.
+Package luatex.def Info: imagenes/Caso02.png  used on input line 623.
 (luatex.def)             Requested size: 203.66455pt x 148.07974pt.
 
-Overfull \hbox (28.51598pt too wide) in paragraph at lines 620--620
+Overfull \hbox (28.51598pt too wide) in paragraph at lines 623--623
 []  
  []
 
-[34
+[35
 
-<./imagenes/Caso02.png>] [35
-
-] [36
+<./imagenes/Caso02.png>] [36
 
 ] [37
 
+] [38
+
 ]
-<imagenes/Caso2.4a.png, id=340, 584.1825pt x 434.62375pt>
+<imagenes/Caso2.4a.png, id=352, 584.1825pt x 434.62375pt>
 File: imagenes/Caso2.4a.png Graphic file (type png)
 <use imagenes/Caso2.4a.png>
-Package luatex.def Info: imagenes/Caso2.4a.png  used on input line 686.
+Package luatex.def Info: imagenes/Caso2.4a.png  used on input line 689.
 (luatex.def)             Requested size: 166.63258pt x 123.96852pt.
- [38
+ [39
 
 <./imagenes/Caso2.4a.png>]
-<imagenes/Caso2.4b.png, id=347, 564.1075pt x 407.5225pt>
+<imagenes/Caso2.4b.png, id=359, 564.1075pt x 407.5225pt>
 File: imagenes/Caso2.4b.png Graphic file (type png)
 <use imagenes/Caso2.4b.png>
-Package luatex.def Info: imagenes/Caso2.4b.png  used on input line 706.
+Package luatex.def Info: imagenes/Caso2.4b.png  used on input line 709.
 (luatex.def)             Requested size: 175.89058pt x 127.06442pt.
 
-Overfull \hbox (0.742pt too wide) in paragraph at lines 706--706
+Overfull \hbox (0.742pt too wide) in paragraph at lines 709--709
 []  
- []
-
-[39
-
-<./imagenes/Caso2.4b.png>]
-File: imagenes/Caso2.4b.png Graphic file (type png)
-<use imagenes/Caso2.4b.png>
-Package luatex.def Info: imagenes/Caso2.4b.png  used on input line 730.
-(luatex.def)             Requested size: 175.89058pt x 127.06442pt.
-
-Overfull \hbox (0.742pt too wide) in paragraph at lines 730--730
-[]  
- []
-
-
-Overfull \vbox (7.36461pt too high) detected at line 730
  []
 
 [40
 
-]
+<./imagenes/Caso2.4b.png>]
 File: imagenes/Caso2.4b.png Graphic file (type png)
 <use imagenes/Caso2.4b.png>
-Package luatex.def Info: imagenes/Caso2.4b.png  used on input line 750.
+Package luatex.def Info: imagenes/Caso2.4b.png  used on input line 733.
 (luatex.def)             Requested size: 175.89058pt x 127.06442pt.
 
-Overfull \hbox (0.742pt too wide) in paragraph at lines 750--750
+Overfull \hbox (0.742pt too wide) in paragraph at lines 733--733
 []  
+ []
+
+
+Overfull \vbox (7.36461pt too high) detected at line 733
  []
 
 [41
 
 ]
-File: imagenes/Caso2.4a.png Graphic file (type png)
-<use imagenes/Caso2.4a.png>
-Package luatex.def Info: imagenes/Caso2.4a.png  used on input line 773.
-(luatex.def)             Requested size: 175.89058pt x 130.85898pt.
+File: imagenes/Caso2.4b.png Graphic file (type png)
+<use imagenes/Caso2.4b.png>
+Package luatex.def Info: imagenes/Caso2.4b.png  used on input line 753.
+(luatex.def)             Requested size: 175.89058pt x 127.06442pt.
 
-Overfull \hbox (0.742pt too wide) in paragraph at lines 773--773
+Overfull \hbox (0.742pt too wide) in paragraph at lines 753--753
 []  
  []
 
 [42
 
-] [43
+]
+File: imagenes/Caso2.4a.png Graphic file (type png)
+<use imagenes/Caso2.4a.png>
+Package luatex.def Info: imagenes/Caso2.4a.png  used on input line 776.
+(luatex.def)             Requested size: 175.89058pt x 130.85898pt.
+
+Overfull \hbox (0.742pt too wide) in paragraph at lines 776--776
+[]  
+ []
+
+[43
+
+] [44
 
 ]
-<imagenes/Caso2.5b.png, id=375, 617.30624pt x 547.04375pt>
+<imagenes/Caso2.5b.png, id=387, 617.30624pt x 547.04375pt>
 File: imagenes/Caso2.5b.png Graphic file (type png)
 <use imagenes/Caso2.5b.png>
-Package luatex.def Info: imagenes/Caso2.5b.png  used on input line 809.
+Package luatex.def Info: imagenes/Caso2.5b.png  used on input line 812.
 (luatex.def)             Requested size: 111.09027pt x 98.43858pt.
-<imagenes/Caso2.6a.png, id=376, 368.37625pt x 421.575pt>
+<imagenes/Caso2.6a.png, id=388, 368.37625pt x 421.575pt>
 File: imagenes/Caso2.6a.png Graphic file (type png)
 <use imagenes/Caso2.6a.png>
-Package luatex.def Info: imagenes/Caso2.6a.png  used on input line 809.
+Package luatex.def Info: imagenes/Caso2.6a.png  used on input line 812.
 (luatex.def)             Requested size: 92.57428pt x 105.94026pt.
- [44
+ [45
 
 <./imagenes/Caso2.5b.png><./imagenes/Caso2.6a.png>]
 File: imagenes/Caso2.6a.png Graphic file (type png)
 <use imagenes/Caso2.6a.png>
-Package luatex.def Info: imagenes/Caso2.6a.png  used on input line 831.
+Package luatex.def Info: imagenes/Caso2.6a.png  used on input line 834.
 (luatex.def)             Requested size: 138.86142pt x 158.91362pt.
- [45
+ [46
 
 ]
-<imagenes/Caso2.6b.png, id=389, 771.88374pt x 550.055pt>
+<imagenes/Caso2.6b.png, id=401, 771.88374pt x 550.055pt>
 File: imagenes/Caso2.6b.png Graphic file (type png)
 <use imagenes/Caso2.6b.png>
-Package luatex.def Info: imagenes/Caso2.6b.png  used on input line 853.
+Package luatex.def Info: imagenes/Caso2.6b.png  used on input line 856.
 (luatex.def)             Requested size: 203.66455pt x 145.13438pt.
 
-Overfull \hbox (28.51598pt too wide) in paragraph at lines 853--853
+Overfull \hbox (28.51598pt too wide) in paragraph at lines 856--856
 []  
  []
 
 
-Overfull \vbox (4.71306pt too high) detected at line 853
+Overfull \vbox (4.71306pt too high) detected at line 856
  []
 
-[46
+[47
 
 <./imagenes/Caso2.6b.png>]
 File: imagenes/Caso2.7a.png Graphic file (type png)
 <use imagenes/Caso2.7a.png>
-Package luatex.def Info: imagenes/Caso2.7a.png  used on input line 875.
-(luatex.def)             Requested size: 157.37741pt x 159.3943pt.
- [47
-
-]
-File: imagenes/Caso2.7a.png Graphic file (type png)
-<use imagenes/Caso2.7a.png>
-Package luatex.def Info: imagenes/Caso2.7a.png  used on input line 898.
+Package luatex.def Info: imagenes/Caso2.7a.png  used on input line 878.
 (luatex.def)             Requested size: 157.37741pt x 159.3943pt.
  [48
 
 ]
-<imagenes/Caso2.7b.png, id=406, 679.53876pt x 558.085pt>
+File: imagenes/Caso2.7a.png Graphic file (type png)
+<use imagenes/Caso2.7a.png>
+Package luatex.def Info: imagenes/Caso2.7a.png  used on input line 901.
+(luatex.def)             Requested size: 157.37741pt x 159.3943pt.
+ [49
+
+]
+<imagenes/Caso2.7b.png, id=418, 679.53876pt x 558.085pt>
 File: imagenes/Caso2.7b.png Graphic file (type png)
 <use imagenes/Caso2.7b.png>
-Package luatex.def Info: imagenes/Caso2.7b.png  used on input line 921.
+Package luatex.def Info: imagenes/Caso2.7b.png  used on input line 924.
 (luatex.def)             Requested size: 185.14857pt x 152.05598pt.
 
-Overfull \hbox (10.0pt too wide) in paragraph at lines 921--921
+Overfull \hbox (10.0pt too wide) in paragraph at lines 924--924
 []  
  []
 
 
-Overfull \vbox (18.93942pt too high) detected at line 921
- []
-
-[49
-
-<./imagenes/Caso2.7b.png>]
-File: imagenes/Caso2.7b.png Graphic file (type png)
-<use imagenes/Caso2.7b.png>
-Package luatex.def Info: imagenes/Caso2.7b.png  used on input line 943.
-(luatex.def)             Requested size: 185.14857pt x 152.05598pt.
-
-Overfull \hbox (10.0pt too wide) in paragraph at lines 943--943
-[]  
+Overfull \vbox (18.93942pt too high) detected at line 924
  []
 
 [50
 
-]
+<./imagenes/Caso2.7b.png>]
+File: imagenes/Caso2.7b.png Graphic file (type png)
+<use imagenes/Caso2.7b.png>
+Package luatex.def Info: imagenes/Caso2.7b.png  used on input line 946.
+(luatex.def)             Requested size: 185.14857pt x 152.05598pt.
 
-Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `math shift' on input line 947.
-
-
-Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `math shift' on input line 947.
-
-LaTeX Font Info:    Font shape `TU/Epilogue(0)/m/it' will be
-(Font)              scaled to size 15.55188pt on input line 947.
-LaTeX Font Info:    Font shape `TU/Epilogue(0)/m/it' will be
-(Font)              scaled to size 10.79993pt on input line 947.
-
-Overfull \vbox (1.11407pt too high) detected at line 947
+Overfull \hbox (10.0pt too wide) in paragraph at lines 946--946
+[]  
  []
 
 [51
 
-] [52
+]
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `math shift' on input line 950.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `math shift' on input line 950.
+
+LaTeX Font Info:    Font shape `TU/Epilogue(0)/m/it' will be
+(Font)              scaled to size 15.55188pt on input line 950.
+LaTeX Font Info:    Font shape `TU/Epilogue(0)/m/it' will be
+(Font)              scaled to size 10.79993pt on input line 950.
+
+Overfull \vbox (1.11407pt too high) detected at line 950
+ []
+
+[52
 
 ] [53
 
 ] [54
 
 ]
+<IPE/point_visibility.pdf, id=449, page=1, 562.46236pt x 418.7645pt>
+File: IPE/point_visibility.pdf Graphic file (type pdf)
+<use IPE/point_visibility.pdf, page 1>
+Package luatex.def Info: IPE/point_visibility.pdf , page1 used on input line 99
+7.
+(luatex.def)             Requested size: 199.48242pt x 148.51866pt.
+
+Overfull \vbox (27.08546pt too high) detected at line 997
+ []
+
+[55
+
+<./IPE/point_visibility.pdf>]
+<IPE/point_visibility.pdf, id=508, page=2, 562.46236pt x 418.7645pt>
+File: IPE/point_visibility.pdf Graphic file (type pdf)
+<use IPE/point_visibility.pdf, page 2>
+Package luatex.def Info: IPE/point_visibility.pdf , page2 used on input line 10
+12.
+(luatex.def)             Requested size: 226.08809pt x 168.3271pt.
+ [56
+
+<./IPE/point_visibility.pdf>]
+<IPE/point_visibility.pdf, id=515, page=3, 562.46236pt x 418.7645pt>
+File: IPE/point_visibility.pdf Graphic file (type pdf)
+<use IPE/point_visibility.pdf, page 3>
+Package luatex.def Info: IPE/point_visibility.pdf , page3 used on input line 10
+27.
+(luatex.def)             Requested size: 226.08809pt x 168.3271pt.
+ [57
+
+<./IPE/point_visibility.pdf>]
+<IPE/point_visibility.pdf, id=521, page=4, 562.46236pt x 418.7645pt>
+File: IPE/point_visibility.pdf Graphic file (type pdf)
+<use IPE/point_visibility.pdf, page 4>
+Package luatex.def Info: IPE/point_visibility.pdf , page4 used on input line 10
+42.
+(luatex.def)             Requested size: 226.08809pt x 168.3271pt.
+ [58
+
+<./IPE/point_visibility.pdf>]
+<IPE/point_visibility.pdf, id=527, page=5, 562.46236pt x 418.7645pt>
+File: IPE/point_visibility.pdf Graphic file (type pdf)
+<use IPE/point_visibility.pdf, page 5>
+Package luatex.def Info: IPE/point_visibility.pdf , page5 used on input line 10
+57.
+(luatex.def)             Requested size: 226.08809pt x 168.3271pt.
+ [59
+
+<./IPE/point_visibility.pdf>]
+<IPE/point_visibility.pdf, id=533, page=6, 562.46236pt x 418.7645pt>
+File: IPE/point_visibility.pdf Graphic file (type pdf)
+<use IPE/point_visibility.pdf, page 6>
+Package luatex.def Info: IPE/point_visibility.pdf , page6 used on input line 10
+70.
+(luatex.def)             Requested size: 205.72188pt x 153.16406pt.
+
+Overfull \vbox (16.89622pt too high) detected at line 1070
+ []
+
+[60
+
+<./IPE/point_visibility.pdf>]
+<IPE/point_visibility.pdf, id=539, page=7, 562.46236pt x 418.7645pt>
+File: IPE/point_visibility.pdf Graphic file (type pdf)
+<use IPE/point_visibility.pdf, page 7>
+Package luatex.def Info: IPE/point_visibility.pdf , page7 used on input line 10
+83.
+(luatex.def)             Requested size: 205.72188pt x 153.16406pt.
+
+Overfull \vbox (16.89622pt too high) detected at line 1083
+ []
+
+[61
+
+<./IPE/point_visibility.pdf>]
+<IPE/point_visibility.pdf, id=546, page=8, 562.46236pt x 418.7645pt>
+File: IPE/point_visibility.pdf Graphic file (type pdf)
+<use IPE/point_visibility.pdf, page 8>
+Package luatex.def Info: IPE/point_visibility.pdf , page8 used on input line 10
+96.
+(luatex.def)             Requested size: 205.72188pt x 153.16406pt.
+
+Overfull \vbox (16.89622pt too high) detected at line 1096
+ []
+
+[62
+
+<./IPE/point_visibility.pdf>]
+<IPE/point_visibility.pdf, id=552, page=9, 562.46236pt x 418.7645pt>
+File: IPE/point_visibility.pdf Graphic file (type pdf)
+<use IPE/point_visibility.pdf, page 9>
+Package luatex.def Info: IPE/point_visibility.pdf , page9 used on input line 11
+09.
+(luatex.def)             Requested size: 205.72188pt x 153.16406pt.
+
+Overfull \vbox (16.89622pt too high) detected at line 1109
+ []
+
+[63
+
+<./IPE/point_visibility.pdf>]
+<IPE/point_visibility.pdf, id=558, page=10, 562.46236pt x 418.7645pt>
+File: IPE/point_visibility.pdf Graphic file (type pdf)
+<use IPE/point_visibility.pdf, page 10>
+Package luatex.def Info: IPE/point_visibility.pdf , page10 used on input line 1
+122.
+(luatex.def)             Requested size: 205.72188pt x 153.16406pt.
+
+Overfull \vbox (16.89622pt too high) detected at line 1122
+ []
+
+[64
+
+<./IPE/point_visibility.pdf>]
+<IPE/point_visibility.pdf, id=564, page=11, 562.46236pt x 418.7645pt>
+File: IPE/point_visibility.pdf Graphic file (type pdf)
+<use IPE/point_visibility.pdf, page 11>
+Package luatex.def Info: IPE/point_visibility.pdf , page11 used on input line 1
+135.
+(luatex.def)             Requested size: 205.72188pt x 153.16406pt.
+
+Overfull \vbox (16.89622pt too high) detected at line 1135
+ []
+
+[65
+
+<./IPE/point_visibility.pdf>]
+<IPE/point_visibility.pdf, id=570, page=12, 562.46236pt x 418.7645pt>
+File: IPE/point_visibility.pdf Graphic file (type pdf)
+<use IPE/point_visibility.pdf, page 12>
+Package luatex.def Info: IPE/point_visibility.pdf , page12 used on input line 1
+148.
+(luatex.def)             Requested size: 205.72188pt x 153.16406pt.
+
+Overfull \vbox (16.89622pt too high) detected at line 1148
+ []
+
+[66
+
+<./IPE/point_visibility.pdf>]
+<IPE/point_visibility.pdf, id=576, page=13, 562.46236pt x 418.7645pt>
+File: IPE/point_visibility.pdf Graphic file (type pdf)
+<use IPE/point_visibility.pdf, page 13>
+Package luatex.def Info: IPE/point_visibility.pdf , page13 used on input line 1
+161.
+(luatex.def)             Requested size: 205.72188pt x 153.16406pt.
+
+Overfull \vbox (16.89622pt too high) detected at line 1161
+ []
+
+[67
+
+<./IPE/point_visibility.pdf>]
+<IPE/point_visibility.pdf, id=582, page=14, 562.46236pt x 418.7645pt>
+File: IPE/point_visibility.pdf Graphic file (type pdf)
+<use IPE/point_visibility.pdf, page 14>
+Package luatex.def Info: IPE/point_visibility.pdf , page14 used on input line 1
+174.
+(luatex.def)             Requested size: 205.72188pt x 153.16406pt.
+
+Overfull \vbox (16.89622pt too high) detected at line 1174
+ []
+
+[68
+
+<./IPE/point_visibility.pdf>]
+<IPE/point_visibility.pdf, id=588, page=15, 562.46236pt x 418.7645pt>
+File: IPE/point_visibility.pdf Graphic file (type pdf)
+<use IPE/point_visibility.pdf, page 15>
+Package luatex.def Info: IPE/point_visibility.pdf , page15 used on input line 1
+187.
+(luatex.def)             Requested size: 205.72188pt x 153.16406pt.
+
+Overfull \vbox (16.89622pt too high) detected at line 1187
+ []
+
+[69
+
+<./IPE/point_visibility.pdf>]
+<IPE/point_visibility.pdf, id=594, page=16, 562.46236pt x 418.7645pt>
+File: IPE/point_visibility.pdf Graphic file (type pdf)
+<use IPE/point_visibility.pdf, page 16>
+Package luatex.def Info: IPE/point_visibility.pdf , page16 used on input line 1
+200.
+(luatex.def)             Requested size: 205.72188pt x 153.16406pt.
+
+Overfull \vbox (16.89622pt too high) detected at line 1200
+ []
+
+[70
+
+<./IPE/point_visibility.pdf>]
+<IPE/point_visibility.pdf, id=600, page=17, 562.46236pt x 418.7645pt>
+File: IPE/point_visibility.pdf Graphic file (type pdf)
+<use IPE/point_visibility.pdf, page 17>
+Package luatex.def Info: IPE/point_visibility.pdf , page17 used on input line 1
+213.
+(luatex.def)             Requested size: 205.72188pt x 153.16406pt.
+
+Overfull \vbox (16.89622pt too high) detected at line 1213
+ []
+
+[71
+
+<./IPE/point_visibility.pdf>]
+<IPE/point_visibility.pdf, id=607, page=18, 562.46236pt x 418.7645pt>
+File: IPE/point_visibility.pdf Graphic file (type pdf)
+<use IPE/point_visibility.pdf, page 18>
+Package luatex.def Info: IPE/point_visibility.pdf , page18 used on input line 1
+226.
+(luatex.def)             Requested size: 205.72188pt x 153.16406pt.
+
+Overfull \vbox (16.89622pt too high) detected at line 1226
+ []
+
+[72
+
+<./IPE/point_visibility.pdf>]
+<IPE/point_visibility.pdf, id=613, page=19, 562.46236pt x 418.7645pt>
+File: IPE/point_visibility.pdf Graphic file (type pdf)
+<use IPE/point_visibility.pdf, page 19>
+Package luatex.def Info: IPE/point_visibility.pdf , page19 used on input line 1
+239.
+(luatex.def)             Requested size: 205.72188pt x 153.16406pt.
+
+Overfull \vbox (16.89622pt too high) detected at line 1239
+ []
+
+[73
+
+<./IPE/point_visibility.pdf>]
+<IPE/point_visibility.pdf, id=619, page=20, 562.46236pt x 418.7645pt>
+File: IPE/point_visibility.pdf Graphic file (type pdf)
+<use IPE/point_visibility.pdf, page 20>
+Package luatex.def Info: IPE/point_visibility.pdf , page20 used on input line 1
+252.
+(luatex.def)             Requested size: 205.72188pt x 153.16406pt.
+
+Overfull \vbox (16.89622pt too high) detected at line 1252
+ []
+
+[74
+
+<./IPE/point_visibility.pdf>]
+<IPE/point_visibility.pdf, id=625, page=21, 562.46236pt x 418.7645pt>
+File: IPE/point_visibility.pdf Graphic file (type pdf)
+<use IPE/point_visibility.pdf, page 21>
+Package luatex.def Info: IPE/point_visibility.pdf , page21 used on input line 1
+265.
+(luatex.def)             Requested size: 205.72188pt x 153.16406pt.
+
+Overfull \vbox (16.89622pt too high) detected at line 1265
+ []
+
+[75
+
+<./IPE/point_visibility.pdf>]
+<IPE/point_visibility.pdf, id=631, page=22, 562.46236pt x 418.7645pt>
+File: IPE/point_visibility.pdf Graphic file (type pdf)
+<use IPE/point_visibility.pdf, page 22>
+Package luatex.def Info: IPE/point_visibility.pdf , page22 used on input line 1
+278.
+(luatex.def)             Requested size: 205.72188pt x 153.16406pt.
+
+Overfull \vbox (16.89622pt too high) detected at line 1278
+ []
+
+[76
+
+<./IPE/point_visibility.pdf>]
+<IPE/point_visibility.pdf, id=637, page=23, 562.46236pt x 418.7645pt>
+File: IPE/point_visibility.pdf Graphic file (type pdf)
+<use IPE/point_visibility.pdf, page 23>
+Package luatex.def Info: IPE/point_visibility.pdf , page23 used on input line 1
+291.
+(luatex.def)             Requested size: 205.72188pt x 153.16406pt.
+
+Overfull \vbox (16.89622pt too high) detected at line 1291
+ []
+
+[77
+
+<./IPE/point_visibility.pdf>]
+<IPE/point_visibility.pdf, id=643, page=24, 562.46236pt x 418.7645pt>
+File: IPE/point_visibility.pdf Graphic file (type pdf)
+<use IPE/point_visibility.pdf, page 24>
+Package luatex.def Info: IPE/point_visibility.pdf , page24 used on input line 1
+306.
+(luatex.def)             Requested size: 252.68517pt x 188.12917pt.
+ [78
+
+<./IPE/point_visibility.pdf>] [79
+
+]
 File: AICStyleData/logos/azul.png Graphic file (type png)
 <use AICStyleData/logos/azul.png>
-Package luatex.def Info: AICStyleData/logos/azul.png  used on input line 1016.
+Package luatex.def Info: AICStyleData/logos/azul.png  used on input line 1335.
 (luatex.def)             Requested size: 455.24408pt x 256.07095pt.
- [55
+ [80
 
 ]
 \tf@nav=\write8
@@ -2419,28 +2714,29 @@ Package luatex.def Info: AICStyleData/logos/azul.png  used on input line 1016.
 \tf@snm=\write10
 
 \openout10 = main.snm
- (./main.aux
+
+(./main.aux
 LaTeX Info: Redefining \sptext on input line 30.
 LaTeX Info: Redefining \. on input line 30.
 LaTeX Info: Redefining \% on input line 30.
 )
 Package rerunfilecheck Info: File `main.out' has not changed.
-(rerunfilecheck)             Checksum: 6687D701ECCA9F4D9BF8BE83B5EA8DF2;1550.
+(rerunfilecheck)             Checksum: 30DA87763E5E7B3AC817A7F7DD15B569;1644.
 Package logreq Info: Writing requests to 'main.run.xml'.
 
 \openout1 = main.run.xml
 )
 
 Here is how much of LuaTeX's memory you used:
- 49018 strings out of 478531
+ 49843 strings out of 478531
  125176,2373549 words of node,token memory allocated
  8384 words of node memory still in use:
    99 hlist, 13 vlist, 8 rule, 43 disc, 11 local_par, 1 dir, 2 math, 203 glue, 3
 4 kern, 25 penalty, 233 glyph, 748 attribute, 73 glue_spec, 376 attribute_list, 
 5 write, 1 save_pos, 216 pdf_literal, 26 pdf_colorstack nodes
-   avail lists: 1:13,2:1876,3:673,4:276,5:523,6:60,7:3968,8:33,9:651,10:23,11:34
+   avail lists: 1:13,2:1876,3:673,4:276,5:523,6:60,7:3968,8:35,9:651,10:23,11:34
 4,12:1
- 66683 multiletter control sequences out of 65536+600000
+ 67313 multiletter control sequences out of 65536+600000
  129 fonts using 13994263 bytes
  131i,20n,126p,1600b,2668s stack positions out of 5000i,500n,10000p,200000b,80000s
 </usr/local/texlive/2021/texmf-dist/fonts/opentype/public/lm/lmroman9-regular.ot
@@ -2462,10 +2758,10 @@ pe1/public/amsfonts/cm/cmsy6.pfb></usr/local/texlive/2021/texmf-dist/fonts/type1
 /public/amsfonts/cm/cmsy7.pfb></usr/local/texlive/2021/texmf-dist/fonts/type1/pu
 blic/amsfonts/cm/cmsy8.pfb></usr/local/texlive/2021/texmf-dist/fonts/type1/publi
 c/amsfonts/cm/cmsy9.pfb>
-Output written on main.pdf (55 pages, 1068475 bytes).
+Output written on main.pdf (80 pages, 1208322 bytes).
 
-PDF statistics: 533 PDF objects out of 1000 (max. 8388607)
- 371 compressed objects within 4 object streams
- 123 named destinations out of 1000 (max. 131072)
- 103 words of extra memory for PDF output out of 10000 (max. 100000000)
+PDF statistics: 747 PDF objects out of 1000 (max. 8388607)
+ 494 compressed objects within 5 object streams
+ 174 named destinations out of 1000 (max. 131072)
+ 111 words of extra memory for PDF output out of 10000 (max. 100000000)
 

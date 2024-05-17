@@ -291,7 +291,7 @@
 \end{frame}
 \begin{frame}{Algoritmo de Melkman}
   \begin{enumerate}
-  \item $D\gets (p_{2},p_{1},p_{1}) // $Se agregan a una deque dos puntos consecutivos del polígono.
+  \item $D\gets (p_{2},p_{1},p_{1}) $// Se agregan a una deque dos puntos consecutivos del polígono.
   \item Para $i\gets 3$ a $n$ hacer:
     \begin{enumerate}
     \item Si $p_{i}$ está fuera del ángulo $v_{t-1}v_tv_{b+1}$, entonces
@@ -299,7 +299,7 @@
       \item Mientras $p_{i}$ esté a la izquierda de $\overrightarrow{v_{b}v_{b+1}}$, entonces se saca desde abajo de $D$.
       \item Mientras $p_{i}$ esté a la derecha de $\overrightarrow{v_{t}v_{t-1}}$, entonces se saca desde arriba de $D$.
       \end{enumerate}
-    \item Se agrega al inicio y al final de $D$ a $p_{i}$.
+    \item Se agrega a $p_{i}$. al inicio y al final de $D$.
     \end{enumerate}
   \end{enumerate}
   \begin{block}{Observación}
@@ -460,10 +460,13 @@
     \begin{column}{0.5\textwidth}
       \begin{figure}
         \centering
-        \includegraphics[width=\linewidth, height=0.5\textheight, page=12, keepaspectratio]{IPE/Melkman.pdf}
+        \includegraphics[width=\linewidth, height=0.5\textheight, page=13, keepaspectratio]{IPE/Melkman.pdf}
       \end{figure}
     \end{column}
   \end{columns}
+\end{frame}
+\begin{frame}{Complejidad}
+  Si el polígono tiene $n$ vértices, entonces se realizan a lo más $2n$ inserciones y $2n-3$ eliminaciones. Así, el algoritmo es $O(n)$.
 \end{frame}
 \subsection{Punto en polígono}
 \begin{frame}[c]{Punto en poligono}
@@ -984,7 +987,323 @@
 
 
 % ------------------------------------------------
-
+\subsection{Ejemplo}
+\begin{frame}{Ejemplo}
+  \begin{figure}
+    \centering
+    \includegraphics[width=1\linewidth, height=.75\textheight, page=1, keepaspectratio]{IPE/point_visibility.pdf}
+    \caption{Polígono con punto $q$}
+  \end{figure}
+\end{frame}
+\begin{frame}{Ejemplo}
+  \begin{columns}
+    \begin{column}{0.3\textwidth}
+      \raggedright % Alineación a la izquierda para mejorar la legibilidad
+      Calculamos el cierre convexo.
+    \end{column}
+    \begin{column}{0.7\textwidth}
+      \vspace{-1.5cm} % Ajustar el espacio vertical para subir la imagen
+      \begin{figure}
+        \centering
+        \includegraphics[width=1\linewidth, height=.85\textheight, page=2, keepaspectratio]{IPE/point_visibility.pdf}
+      \end{figure}
+    \end{column}
+  \end{columns}
+\end{frame}
+\begin{frame}{Ejemplo}
+  \begin{columns}
+    \begin{column}{0.3\textwidth}
+      \raggedright % Alineación a la izquierda para mejorar la legibilidad
+      Trazamos una línea a partir de $q$ que pase por un vértice de $P$.
+    \end{column}
+    \begin{column}{0.7\textwidth}
+      \vspace{-1.5cm} % Ajustar el espacio vertical para subir la imagen
+      \begin{figure}
+        \centering
+        \includegraphics[width=1\linewidth, height=.85\textheight, page=3, keepaspectratio]{IPE/point_visibility.pdf}
+      \end{figure}
+    \end{column}
+  \end{columns}
+\end{frame}
+\begin{frame}{Ejemplo}
+  \begin{columns}
+    \begin{column}{0.3\textwidth}
+      \raggedright % Alineación a la izquierda para mejorar la legibilidad
+      Encontramos al punto más cercano a $q$ de las intersecciones de $\overrightarrow{qv_{k}}$ con $bd(P)$.
+    \end{column}
+    \begin{column}{0.7\textwidth}
+      \vspace{-1.5cm} % Ajustar el espacio vertical para subir la imagen
+      \begin{figure}
+        \centering
+        \includegraphics[width=1\linewidth, height=.85\textheight, page=4, keepaspectratio]{IPE/point_visibility.pdf}
+      \end{figure}
+    \end{column}
+  \end{columns}
+\end{frame}
+\begin{frame}{Ejemplo}
+  \begin{columns}
+    \begin{column}{0.3\textwidth}
+      \raggedright % Alineación a la izquierda para mejorar la legibilidad
+      Encontramos a $v_{i}$ y $v_{j}$.
+    \end{column}
+    \begin{column}{0.7\textwidth}
+      \vspace{-1.5cm} % Ajustar el espacio vertical para subir la imagen
+      \begin{figure}
+        \centering
+        \includegraphics[width=1\linewidth, height=.85\textheight, page=5, keepaspectratio]{IPE/point_visibility.pdf}
+      \end{figure}
+    \end{column}
+  \end{columns}
+\end{frame}
+\begin{frame}{Ejemplo}
+  \begin{columns}
+    \begin{column}{0.5\textwidth}
+      Ahora $q$ es un punto interno del polígono conseguido.
+    \end{column}
+    \begin{column}{0.5\textwidth}
+      \begin{figure}
+        \centering
+        \includegraphics[width=\linewidth, height=1.5\textheight, page=6, keepaspectratio]{IPE/point_visibility.pdf}
+      \end{figure}
+    \end{column}
+  \end{columns}
+\end{frame}
+\begin{frame}{Ejemplo}
+  \begin{columns}
+    \begin{column}{0.5\textwidth}
+      TODO
+    \end{column}
+    \begin{column}{0.5\textwidth}
+      \begin{figure}
+        \centering
+        \includegraphics[width=\linewidth, height=1.5\textheight, page=7, keepaspectratio]{IPE/point_visibility.pdf}
+      \end{figure}
+    \end{column}
+  \end{columns}
+\end{frame}
+\begin{frame}{Ejemplo}
+  \begin{columns}
+    \begin{column}{0.5\textwidth}
+      TODO
+    \end{column}
+    \begin{column}{0.5\textwidth}
+      \begin{figure}
+        \centering
+        \includegraphics[width=\linewidth, height=1.5\textheight, page=8, keepaspectratio]{IPE/point_visibility.pdf}
+      \end{figure}
+    \end{column}
+  \end{columns}
+\end{frame}
+\begin{frame}{Ejemplo}
+  \begin{columns}
+    \begin{column}{0.5\textwidth}
+      TODO
+    \end{column}
+    \begin{column}{0.5\textwidth}
+      \begin{figure}
+        \centering
+        \includegraphics[width=\linewidth, height=1.5\textheight, page=9, keepaspectratio]{IPE/point_visibility.pdf}
+      \end{figure}
+    \end{column}
+  \end{columns}
+\end{frame}
+\begin{frame}{Ejemplo}
+  \begin{columns}
+    \begin{column}{0.5\textwidth}
+      TODO
+    \end{column}
+    \begin{column}{0.5\textwidth}
+      \begin{figure}
+        \centering
+        \includegraphics[width=\linewidth, height=1.5\textheight, page=10, keepaspectratio]{IPE/point_visibility.pdf}
+      \end{figure}
+    \end{column}
+  \end{columns}
+\end{frame}
+\begin{frame}{Ejemplo}
+  \begin{columns}
+    \begin{column}{0.5\textwidth}
+      TODO
+    \end{column}
+    \begin{column}{0.5\textwidth}
+      \begin{figure}
+        \centering
+        \includegraphics[width=\linewidth, height=1.5\textheight, page=11, keepaspectratio]{IPE/point_visibility.pdf}
+      \end{figure}
+    \end{column}
+  \end{columns}
+\end{frame}
+\begin{frame}{Ejemplo}
+  \begin{columns}
+    \begin{column}{0.5\textwidth}
+      TODO
+    \end{column}
+    \begin{column}{0.5\textwidth}
+      \begin{figure}
+        \centering
+        \includegraphics[width=\linewidth, height=1.5\textheight, page=12, keepaspectratio]{IPE/point_visibility.pdf}
+      \end{figure}
+    \end{column}
+  \end{columns}
+\end{frame}
+\begin{frame}{Ejemplo}
+  \begin{columns}
+    \begin{column}{0.5\textwidth}
+      TODO
+    \end{column}
+    \begin{column}{0.5\textwidth}
+      \begin{figure}
+        \centering
+        \includegraphics[width=\linewidth, height=1.5\textheight, page=13, keepaspectratio]{IPE/point_visibility.pdf}
+      \end{figure}
+    \end{column}
+  \end{columns}
+\end{frame}
+\begin{frame}{Ejemplo}
+  \begin{columns}
+    \begin{column}{0.5\textwidth}
+      TODO
+    \end{column}
+    \begin{column}{0.5\textwidth}
+      \begin{figure}
+        \centering
+        \includegraphics[width=\linewidth, height=1.5\textheight, page=14, keepaspectratio]{IPE/point_visibility.pdf}
+      \end{figure}
+    \end{column}
+  \end{columns}
+\end{frame}
+\begin{frame}{Ejemplo}
+  \begin{columns}
+    \begin{column}{0.5\textwidth}
+      TODO
+    \end{column}
+    \begin{column}{0.5\textwidth}
+      \begin{figure}
+        \centering
+        \includegraphics[width=\linewidth, height=1.5\textheight, page=15, keepaspectratio]{IPE/point_visibility.pdf}
+      \end{figure}
+    \end{column}
+  \end{columns}
+\end{frame}
+\begin{frame}{Ejemplo}
+  \begin{columns}
+    \begin{column}{0.5\textwidth}
+      TODO
+    \end{column}
+    \begin{column}{0.5\textwidth}
+      \begin{figure}
+        \centering
+        \includegraphics[width=\linewidth, height=1.5\textheight, page=16, keepaspectratio]{IPE/point_visibility.pdf}
+      \end{figure}
+    \end{column}
+  \end{columns}
+\end{frame}
+\begin{frame}{Ejemplo}
+  \begin{columns}
+    \begin{column}{0.5\textwidth}
+      TODO
+    \end{column}
+    \begin{column}{0.5\textwidth}
+      \begin{figure}
+        \centering
+        \includegraphics[width=\linewidth, height=1.5\textheight, page=17, keepaspectratio]{IPE/point_visibility.pdf}
+      \end{figure}
+    \end{column}
+  \end{columns}
+\end{frame}
+\begin{frame}{Ejemplo}
+  \begin{columns}
+    \begin{column}{0.5\textwidth}
+      TODO
+    \end{column}
+    \begin{column}{0.5\textwidth}
+      \begin{figure}
+        \centering
+        \includegraphics[width=\linewidth, height=1.5\textheight, page=18, keepaspectratio]{IPE/point_visibility.pdf}
+      \end{figure}
+    \end{column}
+  \end{columns}
+\end{frame}
+\begin{frame}{Ejemplo}
+  \begin{columns}
+    \begin{column}{0.5\textwidth}
+      TODO
+    \end{column}
+    \begin{column}{0.5\textwidth}
+      \begin{figure}
+        \centering
+        \includegraphics[width=\linewidth, height=1.5\textheight, page=19, keepaspectratio]{IPE/point_visibility.pdf}
+      \end{figure}
+    \end{column}
+  \end{columns}
+\end{frame}
+\begin{frame}{Ejemplo}
+  \begin{columns}
+    \begin{column}{0.5\textwidth}
+      TODO
+    \end{column}
+    \begin{column}{0.5\textwidth}
+      \begin{figure}
+        \centering
+        \includegraphics[width=\linewidth, height=1.5\textheight, page=20, keepaspectratio]{IPE/point_visibility.pdf}
+      \end{figure}
+    \end{column}
+  \end{columns}
+\end{frame}
+\begin{frame}{Ejemplo}
+  \begin{columns}
+    \begin{column}{0.5\textwidth}
+      TODO
+    \end{column}
+    \begin{column}{0.5\textwidth}
+      \begin{figure}
+        \centering
+        \includegraphics[width=\linewidth, height=1.5\textheight, page=21, keepaspectratio]{IPE/point_visibility.pdf}
+      \end{figure}
+    \end{column}
+  \end{columns}
+\end{frame}
+\begin{frame}{Ejemplo}
+  \begin{columns}
+    \begin{column}{0.5\textwidth}
+      TODO
+    \end{column}
+    \begin{column}{0.5\textwidth}
+      \begin{figure}
+        \centering
+        \includegraphics[width=\linewidth, height=1.5\textheight, page=22, keepaspectratio]{IPE/point_visibility.pdf}
+      \end{figure}
+    \end{column}
+  \end{columns}
+\end{frame}
+\begin{frame}{Ejemplo}
+  \begin{columns}
+    \begin{column}{0.5\textwidth}
+      TODO
+    \end{column}
+    \begin{column}{0.5\textwidth}
+      \begin{figure}
+        \centering
+        \includegraphics[width=\linewidth, height=1.5\textheight, page=23, keepaspectratio]{IPE/point_visibility.pdf}
+      \end{figure}
+    \end{column}
+  \end{columns}
+\end{frame}
+\begin{frame}{Ejemplo}
+  \begin{columns}
+    \begin{column}{0.3\textwidth}
+      \raggedright % Alineación a la izquierda para mejorar la legibilidad
+      TODO fdsaf  dfs asf sad fas fas fsad TODO fdsaf  dfs asf sad fas fas fsadTODO fdsaf  dfs asf sad fas fas fsadTODO fdsaf  dfs asf sad fas fas fsadTODO fdsaf  dfs asf sad fas fas fsadTODO fdsaf  dfs asf sad fas fas fsadTODO fdsaf  dfs asf sad fas fas fsad
+    \end{column}
+    \begin{column}{0.7\textwidth}
+      \vspace{-2.5cm} % Ajustar el espacio vertical para subir la imagen
+      \begin{figure}
+        \centering
+        \includegraphics[width=1\linewidth, height=.95\textheight, page=24, keepaspectratio]{IPE/point_visibility.pdf}
+      \end{figure}
+    \end{column}
+  \end{columns}
+\end{frame}
 \begin{frame}{Complejidad del algoritmo}
   \begin{block}{Invariante}
     El algoritmo mantiene una invariante de que los vértices y puntos en la pila en cualquier etapa están ordenados angularmente con respecto a q.
