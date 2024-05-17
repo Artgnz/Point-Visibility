@@ -166,7 +166,7 @@
   El \textit{polígono de visibilidad} $V(q)$ de un punto $q$ en un polígono simple $P$ es el conjunto de todos los puntos de $P$ que son visibles desde $q$.
   \begin{center}
     \begin{equation*}
-      V(q) = \{ p \in P \text{ } | \text{ } q \text{ sees } p \}
+      V(q) = \{ p \in P \text{ } | \text{ } q \text{ ve a } p \}
     \end{equation*}
   \end{center}
 \end{frame}
@@ -211,9 +211,9 @@
   \begin{columns}
     \begin{column}{0.45\textwidth}
       \begin{itemize}
-      \item Ningún punto de $ab$, excepto $a$ y $b$, pertenecen al perímetro de $P$
-      \item $q$, $a$ y $b$ son colineales
-      \item $a$ o $b$ es un vértice de $P$\\
+      \item Ningún punto de $ab$, excepto $a$ y $b$, pertenecen al perímetro de $P$.
+      \item $q$, $a$ y $b$ son colineales.
+      \item $a$ o $b$ es un vértice de $P$.
       \end{itemize}
       \vspace{0.5cm}
       \begin{center}
@@ -245,7 +245,7 @@
 \begin{frame}{}
   \begin{columns}
     \begin{column}{0.45\textwidth}
-      El número de revoluciones de $P$ respecto a $q$ es dos
+      El número de revoluciones de $P$ respecto a $q$ es dos.
       \begin{wrapfigure}{c}{1.2\textwidth}
         \centering
         \includegraphics[width=1.2\textwidth]{imagenes/Case2.2a.png}
@@ -253,7 +253,7 @@
       \end{wrapfigure}
     \end{column}
     \begin{column}{0.45\textwidth}  %%<--- here
-      El número de revoluciones de $P$ respecto a $q$ es una
+      El número de revoluciones de $P$ respecto a $q$ es una.
       \begin{wrapfigure}{c}{1.2\textwidth}
         \centering
         \includegraphics[width=1.2\textwidth]{imagenes/Caso2.2b.png}
@@ -265,33 +265,28 @@
 
 % ------------------------------------------------
 \subsection{Cierre Convexo en O(n)}
-\begin{frame}{Algoritmo para calcular CH en O(n)}
-  \begin{center}
-    \begin{enumerate}
-      \footnotesize
-    \item t $\leftarrow$ -1; b $\leftarrow$ 0;\\
-      $v_{1}$ $\leftarrow$ input; $v_{2}$ $\leftarrow$ input; $v_{3}$ $\leftarrow$ input;\\
-      if ($v_{1}, v_{2}, v_{3}$) $>$ 0\\
-      \hspace*{0.5cm} then begin push $v_{1}$; push $v_{2}$ ; end \\
-      \hspace*{0.5cm} else begin push $v_{2}$; push $v_{1}$ ; end \\
-      push $v_{3}$ ; insert $v_{3}$; 
-    \item $v$ $\leftarrow$ input;\\
-      until ($v$, $d_{b}$, $d_{b+1}$) < 0 or ($d_{t-1}, d_{t}, v) < 0$ \\
-      \hspace*{0.5cm} do $v$ $\leftarrow$ input end;  
-    \item until $(d_{t-1}, d_{t}, v) > 0$ do pop $d_{t}$ end;\\
-      push $v$;
-    \item until $(v, d_{b}, d_{b+1}) > 0$ do remove $d_{b}$ end;\\ 
-      insert $v$; \\
-      goto 2\\
-    \end{enumerate}
-  \end{center}
-\end{frame}
 \begin{frame}{Algoritmo de Melkman}
   Los polígonos simples simplifican el proceso de calcular su cierre convexo. El algoritmo de Melkman es una herramienta que aprovecha esta propiedad.
+  \begin{columns}
+    \begin{column}{0.5\textwidth}
+      \begin{figure}
+        \centering
+        \includegraphics[width=\linewidth, height=0.5\textheight, page=1, keepaspectratio]{IPE/Melkman.pdf}
+        \caption{Polígono simple.}
+      \end{figure}
+    \end{column}
+    \begin{column}{0.5\textwidth}
+      \begin{figure}
+        \centering
+        \includegraphics[width=\linewidth, height=0.5\textheight, page=2, keepaspectratio]{IPE/Melkman.pdf}
+        \caption{Polígono simple y cierre convexo asociado.}
+      \end{figure}
+    \end{column}
+  \end{columns}
 \end{frame}
 \begin{frame}{Algoritmo de Melkman}
   \begin{enumerate}
-  \item $D\gets (p_{2},p_{1},p_{1}) $// Se agregan a una deque dos puntos consecutivos del polígono.
+  \item $D\gets (p_{2},p_{1},p_{2}) $// Se agregan a una deque dos puntos consecutivos del polígono.
   \item Para $i\gets 3$ a $n$ hacer:
     \begin{enumerate}
     \item Si $p_{i}$ está fuera del ángulo $v_{t-1}v_tv_{b+1}$, entonces
@@ -304,23 +299,23 @@
   \end{enumerate}
   \begin{block}{Observación}
     \small
-    Si tomamos los primeros tres vértices de la deque (leidos de izquierda a derecha), obtenemos una vuelta a la derecha. Si tomamos los últimos tres vértices de la deque (leidos de derecha a izquierda), obtenemos una vuelta a la izquierda.
+    Si tomamos los primeros tres vértices de la deque (leídos de izquierda a derecha), obtenemos una vuelta a la derecha. Si tomamos los últimos tres vértices de la deque (leídos de derecha a izquierda), obtenemos una vuelta a la izquierda.
   \end{block}
 \end{frame}
-\begin{frame}{Ejemplo}
-  \begin{figure}
-    \centering
-    \includegraphics[width=\linewidth, height=0.5\textheight, page=1, keepaspectratio]{IPE/Melkman.pdf}
-    \caption{Polígono simple}
-  \end{figure}
-\end{frame}
-\begin{frame}{Ejemplo}
-  \begin{figure}
-    \centering
-    \includegraphics[width=\linewidth, height=0.5\textheight, page=2, keepaspectratio]{IPE/Melkman.pdf}
-    \caption{Polígono simple con su cierre convexo}
-  \end{figure}
-\end{frame}
+% \begin{frame}{Ejemplo}
+%   \begin{figure}
+%     \centering
+%     \includegraphics[width=\linewidth, height=0.5\textheight, page=1, keepaspectratio]{IPE/Melkman.pdf}
+%     \caption{Polígono simple}
+%   \end{figure}
+% \end{frame}
+% \begin{frame}{Ejemplo}
+%   \begin{figure}
+%     \centering
+%     \includegraphics[width=\linewidth, height=0.5\textheight, page=2, keepaspectratio]{IPE/Melkman.pdf}
+%     \caption{Polígono simple con su cierre convexo}
+%   \end{figure}
+% \end{frame}
 \begin{frame}{Ejemplo}
   \begin{columns}
     \begin{column}{0.5\textwidth}
@@ -338,7 +333,7 @@
 \begin{frame}{Ejemplo}
   \begin{columns}
     \begin{column}{0.5\textwidth}
-      $c$ está a la derecha de $\overrightarrow{ab}$, entonces se saca desde abajo de $D$.
+      $c$ está a la derecha de $\overrightarrow{ab}$, entonces se saca desde abajo de la deque.
     \end{column}
     \begin{column}{0.5\textwidth}
       \begin{figure}
@@ -455,7 +450,7 @@
 \begin{frame}{Ejemplo}
   \begin{columns}
     \begin{column}{0.5\textwidth}
-      Se agrega a $f$ al inicio y al final de la deque.
+      Se agrega a $f$ al inicio y al final de la deque y terminamos.
     \end{column}
     \begin{column}{0.5\textwidth}
       \begin{figure}
