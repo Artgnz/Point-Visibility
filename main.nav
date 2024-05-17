@@ -53,155 +53,215 @@
 \defcounter {refsection}{0}\relax 
 \headcommand {\beamer@framepages {9}{9}}
 \defcounter {refsection}{0}\relax 
-\headcommand {\beamer@subsectionpages {9}{9}}
-\defcounter {refsection}{0}\relax 
-\headcommand {\beamer@subsectionentry {0}{1}{4}{10}{Punto en polígono}}
-\defcounter {refsection}{0}\relax 
-\headcommand {\slideentry {1}{4}{1}{10/10}{Punto en polígono}{0}}
+\headcommand {\slideentry {1}{3}{2}{10/10}{Cierre Convexo en O(n)}{0}}
 \defcounter {refsection}{0}\relax 
 \headcommand {\beamer@framepages {10}{10}}
 \defcounter {refsection}{0}\relax 
-\headcommand {\slideentry {1}{4}{2}{11/11}{Punto en polígono}{0}}
+\headcommand {\slideentry {1}{3}{3}{11/11}{Cierre Convexo en O(n)}{0}}
 \defcounter {refsection}{0}\relax 
 \headcommand {\beamer@framepages {11}{11}}
 \defcounter {refsection}{0}\relax 
-\headcommand {\slideentry {1}{4}{3}{12/12}{Punto en polígono}{0}}
+\headcommand {\slideentry {1}{3}{4}{12/12}{Cierre Convexo en O(n)}{0}}
 \defcounter {refsection}{0}\relax 
 \headcommand {\beamer@framepages {12}{12}}
 \defcounter {refsection}{0}\relax 
-\headcommand {\slideentry {1}{4}{4}{13/13}{Punto en polígono}{0}}
+\headcommand {\slideentry {1}{3}{5}{13/13}{Cierre Convexo en O(n)}{0}}
 \defcounter {refsection}{0}\relax 
 \headcommand {\beamer@framepages {13}{13}}
 \defcounter {refsection}{0}\relax 
-\headcommand {\beamer@sectionpages {1}{13}}
-\defcounter {refsection}{0}\relax 
-\headcommand {\beamer@subsectionpages {10}{13}}
-\defcounter {refsection}{0}\relax 
-\headcommand {\sectionentry {2}{Calculando la visibilidad de un punto}{14}{Calculando la visibilidad de un punto}{0}}
-\defcounter {refsection}{0}\relax 
-\headcommand {\slideentry {2}{0}{0}{14/14}{Punto en polígono}{0}}
+\headcommand {\slideentry {1}{3}{6}{14/14}{Cierre Convexo en O(n)}{0}}
 \defcounter {refsection}{0}\relax 
 \headcommand {\beamer@framepages {14}{14}}
 \defcounter {refsection}{0}\relax 
-\headcommand {\slideentry {2}{0}{1}{15/15}{Punto en polígono}{0}}
+\headcommand {\slideentry {1}{3}{7}{15/15}{Cierre Convexo en O(n)}{0}}
 \defcounter {refsection}{0}\relax 
 \headcommand {\beamer@framepages {15}{15}}
 \defcounter {refsection}{0}\relax 
-\headcommand {\slideentry {2}{0}{2}{16/16}{Punto en polígono}{0}}
+\headcommand {\slideentry {1}{3}{8}{16/16}{Cierre Convexo en O(n)}{0}}
 \defcounter {refsection}{0}\relax 
 \headcommand {\beamer@framepages {16}{16}}
 \defcounter {refsection}{0}\relax 
-\headcommand {\slideentry {2}{0}{3}{17/17}{Punto en polígono}{0}}
+\headcommand {\slideentry {1}{3}{9}{17/17}{Cierre Convexo en O(n)}{0}}
 \defcounter {refsection}{0}\relax 
 \headcommand {\beamer@framepages {17}{17}}
 \defcounter {refsection}{0}\relax 
-\headcommand {\slideentry {2}{0}{4}{18/18}{Punto en polígono}{0}}
+\headcommand {\slideentry {1}{3}{10}{18/18}{Cierre Convexo en O(n)}{0}}
 \defcounter {refsection}{0}\relax 
 \headcommand {\beamer@framepages {18}{18}}
 \defcounter {refsection}{0}\relax 
-\headcommand {\slideentry {2}{0}{5}{19/19}{Punto en polígono}{0}}
+\headcommand {\slideentry {1}{3}{11}{19/19}{Cierre Convexo en O(n)}{0}}
 \defcounter {refsection}{0}\relax 
 \headcommand {\beamer@framepages {19}{19}}
 \defcounter {refsection}{0}\relax 
-\headcommand {\slideentry {2}{0}{6}{20/20}{Punto en polígono}{0}}
+\headcommand {\slideentry {1}{3}{12}{20/20}{Cierre Convexo en O(n)}{0}}
 \defcounter {refsection}{0}\relax 
 \headcommand {\beamer@framepages {20}{20}}
 \defcounter {refsection}{0}\relax 
-\headcommand {\slideentry {2}{0}{7}{21/21}{Punto en polígono}{0}}
+\headcommand {\slideentry {1}{3}{13}{21/21}{Cierre Convexo en O(n)}{0}}
 \defcounter {refsection}{0}\relax 
 \headcommand {\beamer@framepages {21}{21}}
 \defcounter {refsection}{0}\relax 
-\headcommand {\slideentry {2}{0}{8}{22/22}{Punto en polígono}{0}}
+\headcommand {\slideentry {1}{3}{14}{22/22}{Cierre Convexo en O(n)}{0}}
 \defcounter {refsection}{0}\relax 
 \headcommand {\beamer@framepages {22}{22}}
 \defcounter {refsection}{0}\relax 
-\headcommand {\slideentry {2}{0}{9}{23/23}{Punto en polígono}{0}}
+\headcommand {\slideentry {1}{3}{15}{23/23}{Cierre Convexo en O(n)}{0}}
 \defcounter {refsection}{0}\relax 
 \headcommand {\beamer@framepages {23}{23}}
 \defcounter {refsection}{0}\relax 
-\headcommand {\slideentry {2}{0}{10}{24/24}{Punto en polígono}{0}}
+\headcommand {\slideentry {1}{3}{16}{24/24}{Cierre Convexo en O(n)}{0}}
 \defcounter {refsection}{0}\relax 
 \headcommand {\beamer@framepages {24}{24}}
 \defcounter {refsection}{0}\relax 
-\headcommand {\slideentry {2}{0}{11}{25/25}{Punto en polígono}{0}}
+\headcommand {\beamer@subsectionpages {9}{24}}
+\defcounter {refsection}{0}\relax 
+\headcommand {\beamer@subsectionentry {0}{1}{4}{25}{Punto en polígono}}
+\defcounter {refsection}{0}\relax 
+\headcommand {\slideentry {1}{4}{1}{25/25}{Punto en polígono}{0}}
 \defcounter {refsection}{0}\relax 
 \headcommand {\beamer@framepages {25}{25}}
 \defcounter {refsection}{0}\relax 
-\headcommand {\slideentry {2}{0}{12}{26/26}{Punto en polígono}{0}}
+\headcommand {\slideentry {1}{4}{2}{26/26}{Punto en polígono}{0}}
 \defcounter {refsection}{0}\relax 
 \headcommand {\beamer@framepages {26}{26}}
 \defcounter {refsection}{0}\relax 
-\headcommand {\slideentry {2}{0}{13}{27/27}{Punto en polígono}{0}}
+\headcommand {\slideentry {1}{4}{3}{27/27}{Punto en polígono}{0}}
 \defcounter {refsection}{0}\relax 
 \headcommand {\beamer@framepages {27}{27}}
 \defcounter {refsection}{0}\relax 
-\headcommand {\slideentry {2}{0}{14}{28/28}{Punto en polígono}{0}}
+\headcommand {\slideentry {1}{4}{4}{28/28}{Punto en polígono}{0}}
 \defcounter {refsection}{0}\relax 
 \headcommand {\beamer@framepages {28}{28}}
 \defcounter {refsection}{0}\relax 
-\headcommand {\slideentry {2}{0}{15}{29/29}{Punto en polígono}{0}}
+\headcommand {\beamer@sectionpages {1}{28}}
+\defcounter {refsection}{0}\relax 
+\headcommand {\beamer@subsectionpages {25}{28}}
+\defcounter {refsection}{0}\relax 
+\headcommand {\sectionentry {2}{Calculando la visibilidad de un punto}{29}{Calculando la visibilidad de un punto}{0}}
+\defcounter {refsection}{0}\relax 
+\headcommand {\slideentry {2}{0}{0}{29/29}{Punto en polígono}{0}}
 \defcounter {refsection}{0}\relax 
 \headcommand {\beamer@framepages {29}{29}}
 \defcounter {refsection}{0}\relax 
-\headcommand {\slideentry {2}{0}{16}{30/30}{Punto en polígono}{0}}
+\headcommand {\slideentry {2}{0}{1}{30/30}{Punto en polígono}{0}}
 \defcounter {refsection}{0}\relax 
 \headcommand {\beamer@framepages {30}{30}}
 \defcounter {refsection}{0}\relax 
-\headcommand {\slideentry {2}{0}{17}{31/31}{Punto en polígono}{0}}
+\headcommand {\slideentry {2}{0}{2}{31/31}{Punto en polígono}{0}}
 \defcounter {refsection}{0}\relax 
 \headcommand {\beamer@framepages {31}{31}}
 \defcounter {refsection}{0}\relax 
-\headcommand {\slideentry {2}{0}{18}{32/32}{Punto en polígono}{0}}
+\headcommand {\slideentry {2}{0}{3}{32/32}{Punto en polígono}{0}}
 \defcounter {refsection}{0}\relax 
 \headcommand {\beamer@framepages {32}{32}}
 \defcounter {refsection}{0}\relax 
-\headcommand {\slideentry {2}{0}{19}{33/33}{Punto en polígono}{0}}
+\headcommand {\slideentry {2}{0}{4}{33/33}{Punto en polígono}{0}}
 \defcounter {refsection}{0}\relax 
 \headcommand {\beamer@framepages {33}{33}}
 \defcounter {refsection}{0}\relax 
-\headcommand {\slideentry {2}{0}{20}{34/34}{Punto en polígono}{0}}
+\headcommand {\slideentry {2}{0}{5}{34/34}{Punto en polígono}{0}}
 \defcounter {refsection}{0}\relax 
 \headcommand {\beamer@framepages {34}{34}}
 \defcounter {refsection}{0}\relax 
-\headcommand {\slideentry {2}{0}{21}{35/35}{Punto en polígono}{0}}
+\headcommand {\slideentry {2}{0}{6}{35/35}{Punto en polígono}{0}}
 \defcounter {refsection}{0}\relax 
 \headcommand {\beamer@framepages {35}{35}}
 \defcounter {refsection}{0}\relax 
-\headcommand {\beamer@sectionpages {1}{35}}
-\defcounter {refsection}{0}\relax 
-\headcommand {\beamer@subsectionpages {10}{35}}
-\defcounter {refsection}{0}\relax 
-\headcommand {\sectionentry {3}{Algoritmo para calcular $V(q)$}{36}{Algoritmo para calcular $V(q)$}{0}}
-\defcounter {refsection}{0}\relax 
-\headcommand {\slideentry {3}{0}{0}{36/36}{Punto en polígono}{0}}
+\headcommand {\slideentry {2}{0}{7}{36/36}{Punto en polígono}{0}}
 \defcounter {refsection}{0}\relax 
 \headcommand {\beamer@framepages {36}{36}}
 \defcounter {refsection}{0}\relax 
-\headcommand {\beamer@subsectionpages {10}{36}}
-\defcounter {refsection}{0}\relax 
-\headcommand {\beamer@subsectionentry {0}{3}{1}{37}{Algoritmo}}
-\defcounter {refsection}{0}\relax 
-\headcommand {\beamer@subsectionpages {37}{36}}
-\defcounter {refsection}{0}\relax 
-\headcommand {\beamer@subsectionentry {0}{3}{2}{37}{Complejidad}}
-\defcounter {refsection}{0}\relax 
-\headcommand {\slideentry {3}{2}{1}{37/37}{Complejidad}{0}}
+\headcommand {\slideentry {2}{0}{8}{37/37}{Punto en polígono}{0}}
 \defcounter {refsection}{0}\relax 
 \headcommand {\beamer@framepages {37}{37}}
 \defcounter {refsection}{0}\relax 
-\headcommand {\slideentry {3}{2}{2}{38/38}{Complejidad}{0}}
+\headcommand {\slideentry {2}{0}{9}{38/38}{Punto en polígono}{0}}
 \defcounter {refsection}{0}\relax 
 \headcommand {\beamer@framepages {38}{38}}
 \defcounter {refsection}{0}\relax 
-\headcommand {\slideentry {3}{2}{3}{39/39}{Complejidad}{0}}
+\headcommand {\slideentry {2}{0}{10}{39/39}{Punto en polígono}{0}}
 \defcounter {refsection}{0}\relax 
 \headcommand {\beamer@framepages {39}{39}}
 \defcounter {refsection}{0}\relax 
-\headcommand {\slideentry {3}{2}{4}{40/40}{Complejidad}{0}}
+\headcommand {\slideentry {2}{0}{11}{40/40}{Punto en polígono}{0}}
 \defcounter {refsection}{0}\relax 
 \headcommand {\beamer@framepages {40}{40}}
-\headcommand {\beamer@partpages {1}{40}}
-\headcommand {\beamer@subsectionpages {37}{40}}
-\headcommand {\beamer@sectionpages {1}{40}}
-\headcommand {\beamer@documentpages {40}}
-\headcommand {\gdef \inserttotalframenumber {37}}
+\defcounter {refsection}{0}\relax 
+\headcommand {\slideentry {2}{0}{12}{41/41}{Punto en polígono}{0}}
+\defcounter {refsection}{0}\relax 
+\headcommand {\beamer@framepages {41}{41}}
+\defcounter {refsection}{0}\relax 
+\headcommand {\slideentry {2}{0}{13}{42/42}{Punto en polígono}{0}}
+\defcounter {refsection}{0}\relax 
+\headcommand {\beamer@framepages {42}{42}}
+\defcounter {refsection}{0}\relax 
+\headcommand {\slideentry {2}{0}{14}{43/43}{Punto en polígono}{0}}
+\defcounter {refsection}{0}\relax 
+\headcommand {\beamer@framepages {43}{43}}
+\defcounter {refsection}{0}\relax 
+\headcommand {\slideentry {2}{0}{15}{44/44}{Punto en polígono}{0}}
+\defcounter {refsection}{0}\relax 
+\headcommand {\beamer@framepages {44}{44}}
+\defcounter {refsection}{0}\relax 
+\headcommand {\slideentry {2}{0}{16}{45/45}{Punto en polígono}{0}}
+\defcounter {refsection}{0}\relax 
+\headcommand {\beamer@framepages {45}{45}}
+\defcounter {refsection}{0}\relax 
+\headcommand {\slideentry {2}{0}{17}{46/46}{Punto en polígono}{0}}
+\defcounter {refsection}{0}\relax 
+\headcommand {\beamer@framepages {46}{46}}
+\defcounter {refsection}{0}\relax 
+\headcommand {\slideentry {2}{0}{18}{47/47}{Punto en polígono}{0}}
+\defcounter {refsection}{0}\relax 
+\headcommand {\beamer@framepages {47}{47}}
+\defcounter {refsection}{0}\relax 
+\headcommand {\slideentry {2}{0}{19}{48/48}{Punto en polígono}{0}}
+\defcounter {refsection}{0}\relax 
+\headcommand {\beamer@framepages {48}{48}}
+\defcounter {refsection}{0}\relax 
+\headcommand {\slideentry {2}{0}{20}{49/49}{Punto en polígono}{0}}
+\defcounter {refsection}{0}\relax 
+\headcommand {\beamer@framepages {49}{49}}
+\defcounter {refsection}{0}\relax 
+\headcommand {\slideentry {2}{0}{21}{50/50}{Punto en polígono}{0}}
+\defcounter {refsection}{0}\relax 
+\headcommand {\beamer@framepages {50}{50}}
+\defcounter {refsection}{0}\relax 
+\headcommand {\beamer@sectionpages {1}{50}}
+\defcounter {refsection}{0}\relax 
+\headcommand {\beamer@subsectionpages {25}{50}}
+\defcounter {refsection}{0}\relax 
+\headcommand {\sectionentry {3}{Algoritmo para calcular $V(q)$}{51}{Algoritmo para calcular $V(q)$}{0}}
+\defcounter {refsection}{0}\relax 
+\headcommand {\slideentry {3}{0}{0}{51/51}{Punto en polígono}{0}}
+\defcounter {refsection}{0}\relax 
+\headcommand {\beamer@framepages {51}{51}}
+\defcounter {refsection}{0}\relax 
+\headcommand {\beamer@subsectionpages {25}{51}}
+\defcounter {refsection}{0}\relax 
+\headcommand {\beamer@subsectionentry {0}{3}{1}{52}{Algoritmo}}
+\defcounter {refsection}{0}\relax 
+\headcommand {\beamer@subsectionpages {52}{51}}
+\defcounter {refsection}{0}\relax 
+\headcommand {\beamer@subsectionentry {0}{3}{2}{52}{Complejidad}}
+\defcounter {refsection}{0}\relax 
+\headcommand {\slideentry {3}{2}{1}{52/52}{Complejidad}{0}}
+\defcounter {refsection}{0}\relax 
+\headcommand {\beamer@framepages {52}{52}}
+\defcounter {refsection}{0}\relax 
+\headcommand {\slideentry {3}{2}{2}{53/53}{Complejidad}{0}}
+\defcounter {refsection}{0}\relax 
+\headcommand {\beamer@framepages {53}{53}}
+\defcounter {refsection}{0}\relax 
+\headcommand {\slideentry {3}{2}{3}{54/54}{Complejidad}{0}}
+\defcounter {refsection}{0}\relax 
+\headcommand {\beamer@framepages {54}{54}}
+\defcounter {refsection}{0}\relax 
+\headcommand {\slideentry {3}{2}{4}{55/55}{Complejidad}{0}}
+\defcounter {refsection}{0}\relax 
+\headcommand {\beamer@framepages {55}{55}}
+\headcommand {\beamer@partpages {1}{55}}
+\headcommand {\beamer@subsectionpages {52}{55}}
+\headcommand {\beamer@sectionpages {1}{55}}
+\headcommand {\beamer@documentpages {55}}
+\headcommand {\gdef \inserttotalframenumber {52}}

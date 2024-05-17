@@ -286,6 +286,122 @@
     \end{enumerate}
   \end{center}
 \end{frame}
+\begin{frame}{Algoritmo de Melkman}
+  Los polígonos simples simplifican el proceso de calcular su cierre convexo. El algoritmo de Melkman es una herramienta que aprovecha esta propiedad.
+\end{frame}
+\begin{frame}{Algoritmo de Melkman}
+  \begin{enumerate}
+  \item $D\gets (p_{2},p_{1},p_{1}) // $Se agregan a una deque dos puntos consecutivos del polígono.
+  \item Para $i\gets 3$ a $n$ hacer:
+    \begin{enumerate}
+    \item Si $p_{i}$ está fuera del ángulo $v_{t-1}v_tv_{b+1}$, entonces
+      \begin{enumerate}
+      \item Mientras $p_{i}$ esté a la izquierda de $\overrightarrow{v_{b}v_{b+1}}$, entonces se saca desde abajo de $D$.
+      \item Mientras $p_{i}$ esté a la derecha de $\overrightarrow{v_{t}v_{t-1}}$, entonces se saca desde arriba de $D$.
+      \end{enumerate}
+    \item Se agrega al inicio y al final de $D$ a $p_{i}$.
+    \end{enumerate}
+  \end{enumerate}
+  \begin{block}{Observación}
+    \small
+    Si tomamos los primeros tres vértices de la deque (leidos de izquierda a derecha), obtenemos una vuelta a la derecha. Si tomamos los últimos tres vértices de la deque (leidos de derecha a izquierda), obtenemos una vuelta a la izquierda.
+  \end{block}
+\end{frame}
+\begin{frame}{Ejemplo}
+  \begin{figure}
+    \centering
+    \includegraphics[width=\linewidth, height=0.5\textheight, page=1, keepaspectratio]{IPE/Melkman.pdf}
+    \caption{Polígono simple}
+  \end{figure}
+\end{frame}
+\begin{frame}{Ejemplo}
+  \begin{figure}
+    \centering
+    \includegraphics[width=\linewidth, height=0.5\textheight, page=2, keepaspectratio]{IPE/Melkman.pdf}
+    \caption{Polígono simple con su cierre convexo}
+  \end{figure}
+\end{frame}
+\begin{frame}{Ejemplo}
+  \begin{columns}
+    \begin{column}{0.5\textwidth}
+      Se agrega a la deque dos puntos consecutivos del polígono.
+    \end{column}
+    \begin{column}{0.5\textwidth}
+      \begin{figure}
+        \centering
+        \includegraphics[width=\linewidth, height=0.5\textheight, page=3, keepaspectratio]{IPE/Melkman.pdf}
+      \end{figure}
+    \end{column}
+  \end{columns}
+  
+\end{frame}
+\begin{frame}{Ejemplo}
+  \begin{columns}
+    \begin{column}{0.5\textwidth}
+      $c$ está a la derecha de $\overrightarrow{ab}$, entonces se saca desde abajo de $D$.
+    \end{column}
+    \begin{column}{0.5\textwidth}
+      \begin{figure}
+        \centering
+        \includegraphics[width=\linewidth, height=0.5\textheight, page=4, keepaspectratio]{IPE/Melkman.pdf}
+      \end{figure}
+    \end{column}
+  \end{columns}
+\end{frame}
+\begin{frame}{Ejemplo}
+  \begin{figure}
+    \centering
+    \includegraphics[width=\linewidth, height=0.5\textheight, page=5, keepaspectratio]{IPE/Melkman.pdf}
+  \end{figure}
+\end{frame}
+\begin{frame}{Ejemplo}
+  \begin{figure}
+    \centering
+    \includegraphics[width=\linewidth, height=0.5\textheight, page=6, keepaspectratio]{IPE/Melkman.pdf}
+  \end{figure}
+\end{frame}
+\begin{frame}{Ejemplo}
+  \begin{figure}
+    \centering
+    \includegraphics[width=\linewidth, height=0.5\textheight, page=7, keepaspectratio]{IPE/Melkman.pdf}
+  \end{figure}
+\end{frame}
+\begin{frame}{Ejemplo}
+  \begin{figure}
+    \centering
+    \includegraphics[width=\linewidth, height=0.5\textheight, page=8, keepaspectratio]{IPE/Melkman.pdf}
+  \end{figure}
+\end{frame}
+\begin{frame}{Ejemplo}
+  \begin{figure}
+    \centering
+    \includegraphics[width=\linewidth, height=0.5\textheight, page=9, keepaspectratio]{IPE/Melkman.pdf}
+  \end{figure}
+\end{frame}
+\begin{frame}{Ejemplo}
+  \begin{figure}
+    \centering
+    \includegraphics[width=\linewidth, height=0.5\textheight, page=10, keepaspectratio]{IPE/Melkman.pdf}
+  \end{figure}
+\end{frame}
+\begin{frame}{Ejemplo}
+  \begin{figure}
+    \centering
+    \includegraphics[width=\linewidth, height=0.5\textheight, page=11, keepaspectratio]{IPE/Melkman.pdf}
+  \end{figure}
+\end{frame}
+\begin{frame}{Ejemplo}
+  \begin{figure}
+    \centering
+    \includegraphics[width=\linewidth, height=0.5\textheight, page=12, keepaspectratio]{IPE/Melkman.pdf}
+  \end{figure}
+\end{frame}
+\begin{frame}{Ejemplo}
+  \begin{figure}
+    \centering
+    \includegraphics[width=\linewidth, height=0.5\textheight, page=13, keepaspectratio]{IPE/Melkman.pdf}
+  \end{figure}
+\end{frame}
 \subsection{Punto en polígono}
 \begin{frame}[c]{Punto en poligono}
   Un problema geométrico es determinar si un punto específico está dentro o fuera de un polígono dado.
@@ -307,7 +423,6 @@
   \end{columns}
 \end{frame}
 \begin{frame}[c]{Método del rayo}
-  \textbf{Algoritmo del Método del Rayo:}
   \begin{enumerate}
   \item Se traza una línea horizontal desde el punto hacia la derecha a lo largo del eje x.
   \end{enumerate}
@@ -317,7 +432,6 @@
   \end{figure}
 \end{frame}
 \begin{frame}[c]{Método del rayo}
-  \textbf{Algoritmo del Método del Rayo:}
   \begin{enumerate}
   \item Se traza una línea horizontal desde el punto hacia la derecha a lo largo del eje x.
   \item Se cuenta el número de intersecciones con las aristas del polígono:
@@ -332,8 +446,7 @@
     \includegraphics[width=\linewidth, height=0.5\textheight, page=4, keepaspectratio]{IPE/pip.pdf}
   \end{figure}
 \end{frame}
-\begin{frame}[c]{Método del rayo}
-  \textbf{Complejidad}
+\begin{frame}[c]{Complejidad}
   \begin{enumerate}
   \item Se traza una línea horizontal desde el punto hacia la derecha a lo largo del eje x. \textbf{O(1)}
   \item Se cuenta el número de intersecciones con las aristas del polígono:  \textbf{O(n)}
@@ -342,7 +455,6 @@
     \item En otro caso, el punto está dentro del polígono.  \textbf{O(1)}
     \end{enumerate}
   \end{enumerate}
-
   \textbf{Complejidad:} O(n)
 \end{frame}
 % ------------------------------------------------
