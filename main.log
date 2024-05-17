@@ -1,4 +1,4 @@
-This is LuaHBTeX, Version 1.13.0 (TeX Live 2021)  (format=lualatex 2021.8.10)  16 MAY 2024 23:43
+This is LuaHBTeX, Version 1.13.0 (TeX Live 2021)  (format=lualatex 2021.8.10)  17 MAY 2024 00:37
  restricted system commands enabled.
 **main.tex
 (./main.tex
@@ -2457,37 +2457,26 @@ Package luatex.def Info: IPE/point_visibility.pdf , page5 used on input line 10
 File: IPE/point_visibility.pdf Graphic file (type pdf)
 <use IPE/point_visibility.pdf, page 6>
 Package luatex.def Info: IPE/point_visibility.pdf , page6 used on input line 10
-70.
-(luatex.def)             Requested size: 205.72188pt x 153.16406pt.
-
-Overfull \vbox (16.89622pt too high) detected at line 1070
- []
-
-[60
+72.
+(luatex.def)             Requested size: 252.68517pt x 188.12917pt.
+ [60
 
 <./IPE/point_visibility.pdf>]
 <IPE/point_visibility.pdf, id=539, page=7, 562.46236pt x 418.7645pt>
 File: IPE/point_visibility.pdf Graphic file (type pdf)
 <use IPE/point_visibility.pdf, page 7>
 Package luatex.def Info: IPE/point_visibility.pdf , page7 used on input line 10
-83.
-(luatex.def)             Requested size: 205.72188pt x 153.16406pt.
-
-Overfull \vbox (16.89622pt too high) detected at line 1083
- []
-
-[61
+87.
+(luatex.def)             Requested size: 252.68517pt x 188.12917pt.
+ [61
 
 <./IPE/point_visibility.pdf>]
 <IPE/point_visibility.pdf, id=546, page=8, 562.46236pt x 418.7645pt>
 File: IPE/point_visibility.pdf Graphic file (type pdf)
 <use IPE/point_visibility.pdf, page 8>
-Package luatex.def Info: IPE/point_visibility.pdf , page8 used on input line 10
-96.
-(luatex.def)             Requested size: 205.72188pt x 153.16406pt.
-
-Overfull \vbox (16.89622pt too high) detected at line 1096
- []
+Package luatex.def Info: IPE/point_visibility.pdf , page8 used on input line 11
+02.
+(luatex.def)             Requested size: 252.68517pt x 188.12917pt.
 
 [62
 
@@ -2496,89 +2485,62 @@ Overfull \vbox (16.89622pt too high) detected at line 1096
 File: IPE/point_visibility.pdf Graphic file (type pdf)
 <use IPE/point_visibility.pdf, page 9>
 Package luatex.def Info: IPE/point_visibility.pdf , page9 used on input line 11
-09.
-(luatex.def)             Requested size: 205.72188pt x 153.16406pt.
-
-Overfull \vbox (16.89622pt too high) detected at line 1109
- []
-
-[63
+17.
+(luatex.def)             Requested size: 252.68517pt x 188.12917pt.
+ [63
 
 <./IPE/point_visibility.pdf>]
 <IPE/point_visibility.pdf, id=558, page=10, 562.46236pt x 418.7645pt>
 File: IPE/point_visibility.pdf Graphic file (type pdf)
 <use IPE/point_visibility.pdf, page 10>
 Package luatex.def Info: IPE/point_visibility.pdf , page10 used on input line 1
-122.
-(luatex.def)             Requested size: 205.72188pt x 153.16406pt.
-
-Overfull \vbox (16.89622pt too high) detected at line 1122
- []
-
-[64
+132.
+(luatex.def)             Requested size: 252.68517pt x 188.12917pt.
+ [64
 
 <./IPE/point_visibility.pdf>]
 <IPE/point_visibility.pdf, id=564, page=11, 562.46236pt x 418.7645pt>
 File: IPE/point_visibility.pdf Graphic file (type pdf)
 <use IPE/point_visibility.pdf, page 11>
 Package luatex.def Info: IPE/point_visibility.pdf , page11 used on input line 1
-135.
-(luatex.def)             Requested size: 205.72188pt x 153.16406pt.
-
-Overfull \vbox (16.89622pt too high) detected at line 1135
- []
-
-[65
+147.
+(luatex.def)             Requested size: 252.68517pt x 188.12917pt.
+ [65
 
 <./IPE/point_visibility.pdf>]
 <IPE/point_visibility.pdf, id=570, page=12, 562.46236pt x 418.7645pt>
 File: IPE/point_visibility.pdf Graphic file (type pdf)
 <use IPE/point_visibility.pdf, page 12>
 Package luatex.def Info: IPE/point_visibility.pdf , page12 used on input line 1
-148.
-(luatex.def)             Requested size: 205.72188pt x 153.16406pt.
-
-Overfull \vbox (16.89622pt too high) detected at line 1148
- []
-
-[66
+162.
+(luatex.def)             Requested size: 252.68517pt x 188.12917pt.
+ [66
 
 <./IPE/point_visibility.pdf>]
 <IPE/point_visibility.pdf, id=576, page=13, 562.46236pt x 418.7645pt>
 File: IPE/point_visibility.pdf Graphic file (type pdf)
 <use IPE/point_visibility.pdf, page 13>
 Package luatex.def Info: IPE/point_visibility.pdf , page13 used on input line 1
-161.
-(luatex.def)             Requested size: 205.72188pt x 153.16406pt.
-
-Overfull \vbox (16.89622pt too high) detected at line 1161
- []
-
-[67
+177.
+(luatex.def)             Requested size: 252.68517pt x 188.12917pt.
+ [67
 
 <./IPE/point_visibility.pdf>]
 <IPE/point_visibility.pdf, id=582, page=14, 562.46236pt x 418.7645pt>
 File: IPE/point_visibility.pdf Graphic file (type pdf)
 <use IPE/point_visibility.pdf, page 14>
 Package luatex.def Info: IPE/point_visibility.pdf , page14 used on input line 1
-174.
-(luatex.def)             Requested size: 205.72188pt x 153.16406pt.
-
-Overfull \vbox (16.89622pt too high) detected at line 1174
- []
-
-[68
+192.
+(luatex.def)             Requested size: 252.68517pt x 188.12917pt.
+ [68
 
 <./IPE/point_visibility.pdf>]
 <IPE/point_visibility.pdf, id=588, page=15, 562.46236pt x 418.7645pt>
 File: IPE/point_visibility.pdf Graphic file (type pdf)
 <use IPE/point_visibility.pdf, page 15>
 Package luatex.def Info: IPE/point_visibility.pdf , page15 used on input line 1
-187.
-(luatex.def)             Requested size: 205.72188pt x 153.16406pt.
-
-Overfull \vbox (16.89622pt too high) detected at line 1187
- []
+207.
+(luatex.def)             Requested size: 252.68517pt x 188.12917pt.
 
 [69
 
@@ -2587,111 +2549,97 @@ Overfull \vbox (16.89622pt too high) detected at line 1187
 File: IPE/point_visibility.pdf Graphic file (type pdf)
 <use IPE/point_visibility.pdf, page 16>
 Package luatex.def Info: IPE/point_visibility.pdf , page16 used on input line 1
-200.
-(luatex.def)             Requested size: 205.72188pt x 153.16406pt.
-
-Overfull \vbox (16.89622pt too high) detected at line 1200
- []
-
-[70
+222.
+(luatex.def)             Requested size: 252.68517pt x 188.12917pt.
+ [70
 
 <./IPE/point_visibility.pdf>]
-<IPE/point_visibility.pdf, id=600, page=17, 562.46236pt x 418.7645pt>
 File: IPE/point_visibility.pdf Graphic file (type pdf)
-<use IPE/point_visibility.pdf, page 17>
-Package luatex.def Info: IPE/point_visibility.pdf , page17 used on input line 1
-213.
-(luatex.def)             Requested size: 205.72188pt x 153.16406pt.
+<use IPE/point_visibility.pdf, page 16>
+Package luatex.def Info: IPE/point_visibility.pdf , page16 used on input line 1
+237.
+(luatex.def)             Requested size: 252.68517pt x 188.12917pt.
+ [71
 
-Overfull \vbox (16.89622pt too high) detected at line 1213
- []
-
-[71
-
-<./IPE/point_visibility.pdf>]
-<IPE/point_visibility.pdf, id=607, page=18, 562.46236pt x 418.7645pt>
+]
 File: IPE/point_visibility.pdf Graphic file (type pdf)
-<use IPE/point_visibility.pdf, page 18>
-Package luatex.def Info: IPE/point_visibility.pdf , page18 used on input line 1
-226.
-(luatex.def)             Requested size: 205.72188pt x 153.16406pt.
+<use IPE/point_visibility.pdf, page 16>
+Package luatex.def Info: IPE/point_visibility.pdf , page16 used on input line 1
+252.
+(luatex.def)             Requested size: 252.68517pt x 188.12917pt.
+ [72
 
-Overfull \vbox (16.89622pt too high) detected at line 1226
- []
-
-[72
-
-<./IPE/point_visibility.pdf>]
-<IPE/point_visibility.pdf, id=613, page=19, 562.46236pt x 418.7645pt>
+]
+<IPE/point_visibility.pdf, id=611, page=19, 562.46236pt x 418.7645pt>
 File: IPE/point_visibility.pdf Graphic file (type pdf)
 <use IPE/point_visibility.pdf, page 19>
 Package luatex.def Info: IPE/point_visibility.pdf , page19 used on input line 1
-239.
-(luatex.def)             Requested size: 205.72188pt x 153.16406pt.
-
-Overfull \vbox (16.89622pt too high) detected at line 1239
- []
-
-[73
-
-<./IPE/point_visibility.pdf>]
-<IPE/point_visibility.pdf, id=619, page=20, 562.46236pt x 418.7645pt>
-File: IPE/point_visibility.pdf Graphic file (type pdf)
-<use IPE/point_visibility.pdf, page 20>
-Package luatex.def Info: IPE/point_visibility.pdf , page20 used on input line 1
-252.
-(luatex.def)             Requested size: 205.72188pt x 153.16406pt.
-
-Overfull \vbox (16.89622pt too high) detected at line 1252
- []
-
-[74
-
-<./IPE/point_visibility.pdf>]
-<IPE/point_visibility.pdf, id=625, page=21, 562.46236pt x 418.7645pt>
-File: IPE/point_visibility.pdf Graphic file (type pdf)
-<use IPE/point_visibility.pdf, page 21>
-Package luatex.def Info: IPE/point_visibility.pdf , page21 used on input line 1
 265.
 (luatex.def)             Requested size: 205.72188pt x 153.16406pt.
 
 Overfull \vbox (16.89622pt too high) detected at line 1265
  []
 
-[75
+[73
 
 <./IPE/point_visibility.pdf>]
-<IPE/point_visibility.pdf, id=631, page=22, 562.46236pt x 418.7645pt>
+<IPE/point_visibility.pdf, id=617, page=20, 562.46236pt x 418.7645pt>
 File: IPE/point_visibility.pdf Graphic file (type pdf)
-<use IPE/point_visibility.pdf, page 22>
-Package luatex.def Info: IPE/point_visibility.pdf , page22 used on input line 1
+<use IPE/point_visibility.pdf, page 20>
+Package luatex.def Info: IPE/point_visibility.pdf , page20 used on input line 1
 278.
 (luatex.def)             Requested size: 205.72188pt x 153.16406pt.
 
 Overfull \vbox (16.89622pt too high) detected at line 1278
  []
 
-[76
+[74
 
 <./IPE/point_visibility.pdf>]
-<IPE/point_visibility.pdf, id=637, page=23, 562.46236pt x 418.7645pt>
+<IPE/point_visibility.pdf, id=623, page=21, 562.46236pt x 418.7645pt>
 File: IPE/point_visibility.pdf Graphic file (type pdf)
-<use IPE/point_visibility.pdf, page 23>
-Package luatex.def Info: IPE/point_visibility.pdf , page23 used on input line 1
+<use IPE/point_visibility.pdf, page 21>
+Package luatex.def Info: IPE/point_visibility.pdf , page21 used on input line 1
 291.
 (luatex.def)             Requested size: 205.72188pt x 153.16406pt.
 
 Overfull \vbox (16.89622pt too high) detected at line 1291
  []
 
+[75
+
+<./IPE/point_visibility.pdf>]
+<IPE/point_visibility.pdf, id=629, page=22, 562.46236pt x 418.7645pt>
+File: IPE/point_visibility.pdf Graphic file (type pdf)
+<use IPE/point_visibility.pdf, page 22>
+Package luatex.def Info: IPE/point_visibility.pdf , page22 used on input line 1
+304.
+(luatex.def)             Requested size: 205.72188pt x 153.16406pt.
+
+Overfull \vbox (16.89622pt too high) detected at line 1304
+ []
+
+[76
+
+<./IPE/point_visibility.pdf>]
+<IPE/point_visibility.pdf, id=635, page=23, 562.46236pt x 418.7645pt>
+File: IPE/point_visibility.pdf Graphic file (type pdf)
+<use IPE/point_visibility.pdf, page 23>
+Package luatex.def Info: IPE/point_visibility.pdf , page23 used on input line 1
+317.
+(luatex.def)             Requested size: 205.72188pt x 153.16406pt.
+
+Overfull \vbox (16.89622pt too high) detected at line 1317
+ []
+
 [77
 
 <./IPE/point_visibility.pdf>]
-<IPE/point_visibility.pdf, id=643, page=24, 562.46236pt x 418.7645pt>
+<IPE/point_visibility.pdf, id=641, page=24, 562.46236pt x 418.7645pt>
 File: IPE/point_visibility.pdf Graphic file (type pdf)
 <use IPE/point_visibility.pdf, page 24>
 Package luatex.def Info: IPE/point_visibility.pdf , page24 used on input line 1
-306.
+332.
 (luatex.def)             Requested size: 252.68517pt x 188.12917pt.
  [78
 
@@ -2700,7 +2648,7 @@ Package luatex.def Info: IPE/point_visibility.pdf , page24 used on input line 1
 ]
 File: AICStyleData/logos/azul.png Graphic file (type png)
 <use AICStyleData/logos/azul.png>
-Package luatex.def Info: AICStyleData/logos/azul.png  used on input line 1335.
+Package luatex.def Info: AICStyleData/logos/azul.png  used on input line 1361.
 (luatex.def)             Requested size: 455.24408pt x 256.07095pt.
  [80
 
@@ -2728,7 +2676,7 @@ Package logreq Info: Writing requests to 'main.run.xml'.
 )
 
 Here is how much of LuaTeX's memory you used:
- 49843 strings out of 478531
+ 49837 strings out of 478531
  125176,2373549 words of node,token memory allocated
  8384 words of node memory still in use:
    99 hlist, 13 vlist, 8 rule, 43 disc, 11 local_par, 1 dir, 2 math, 203 glue, 3
@@ -2736,7 +2684,7 @@ Here is how much of LuaTeX's memory you used:
 5 write, 1 save_pos, 216 pdf_literal, 26 pdf_colorstack nodes
    avail lists: 1:13,2:1876,3:673,4:276,5:523,6:60,7:3968,8:35,9:651,10:23,11:34
 4,12:1
- 67313 multiletter control sequences out of 65536+600000
+ 67307 multiletter control sequences out of 65536+600000
  129 fonts using 13994263 bytes
  131i,20n,126p,1600b,2668s stack positions out of 5000i,500n,10000p,200000b,80000s
 </usr/local/texlive/2021/texmf-dist/fonts/opentype/public/lm/lmroman9-regular.ot
@@ -2758,9 +2706,9 @@ pe1/public/amsfonts/cm/cmsy6.pfb></usr/local/texlive/2021/texmf-dist/fonts/type1
 /public/amsfonts/cm/cmsy7.pfb></usr/local/texlive/2021/texmf-dist/fonts/type1/pu
 blic/amsfonts/cm/cmsy8.pfb></usr/local/texlive/2021/texmf-dist/fonts/type1/publi
 c/amsfonts/cm/cmsy9.pfb>
-Output written on main.pdf (80 pages, 1208322 bytes).
+Output written on main.pdf (80 pages, 1206704 bytes).
 
-PDF statistics: 747 PDF objects out of 1000 (max. 8388607)
+PDF statistics: 745 PDF objects out of 1000 (max. 8388607)
  494 compressed objects within 5 object streams
  174 named destinations out of 1000 (max. 131072)
  111 words of extra memory for PDF output out of 10000 (max. 100000000)
