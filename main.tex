@@ -1089,7 +1089,7 @@
   \begin{columns}
     \begin{column}{0.3\textwidth}
       \raggedright % Alineación a la izquierda para mejorar la legibilidad
-      Asignamos nombres a los vértices en sentido antihorario.
+      Asignamos identificadores a los vértices en sentido antihorario.
     \end{column}
     \begin{column}{0.7\textwidth}
       \vspace{-2.5cm} % Ajustar el espacio vertical para subir la imagen
@@ -1104,7 +1104,7 @@
   \begin{columns}
     \begin{column}{0.3\textwidth}
       \raggedright % Alineación a la izquierda para mejorar la legibilidad
-      Agregamos a $v_{0}$ a la pila.
+      Insertamos a $v_{0}$ a la pila.
     \end{column}
     \begin{column}{0.7\textwidth}
       \vspace{-2.5cm} % Ajustar el espacio vertical para subir la imagen
@@ -1119,7 +1119,7 @@
   \begin{columns}
     \begin{column}{0.3\textwidth}
       \raggedright % Alineación a la izquierda para mejorar la legibilidad
-      $v_{1}$ está a la izquierda de $qv_{0}$, así que lo agregamos a la pila.
+      $v_{1}$ está a la izquierda de $\overrightarrow{qv_{0}}$, así que lo insertamos a la pila.
     \end{column}
     \begin{column}{0.7\textwidth}
       \vspace{-2.5cm} % Ajustar el espacio vertical para subir la imagen
@@ -1134,7 +1134,7 @@
   \begin{columns}
     \begin{column}{0.3\textwidth}
       \raggedright % Alineación a la izquierda para mejorar la legibilidad
-      $v_{2}$ está a la izquierda de $qv_{1}$, así que lo agregamos a la pila.
+      $v_{2}$ está a la izquierda de $\overrightarrow{qv_{1}}$, así que lo insertamos a la pila.
     \end{column}
     \begin{column}{0.7\textwidth}
       \vspace{-2.5cm} % Ajustar el espacio vertical para subir la imagen
@@ -1149,7 +1149,7 @@
   \begin{columns}
     \begin{column}{0.3\textwidth}
       \raggedright % Alineación a la izquierda para mejorar la legibilidad
-      $v_{3}$ está a la izquierda de $qv_{2}$, así que lo agregamos a la pila.
+      $v_{3}$ está a la izquierda de $\overrightarrow{qv_{2}}$, así que lo insertamos a la pila.
     \end{column}
     \begin{column}{0.7\textwidth}
       \vspace{-2.5cm} % Ajustar el espacio vertical para subir la imagen
@@ -1164,7 +1164,7 @@
   \begin{columns}
     \begin{column}{0.3\textwidth}
       \raggedright % Alineación a la izquierda para mejorar la legibilidad
-      $v_{4}$ está a la derecha de $\overrightarrow{qv_{3}}$ y está a la izquierda de $\overrightarrow{v_{2}v_{3}}$. Así que sacamos el primer elemento del stack. Nombramos a $v_{3}v_{4}$ arista frontal y a $v_{2}$ como $u$.
+      $v_{4}$ está a la derecha de $\overrightarrow{qv_{3}}$ y está a la izquierda de $\overrightarrow{v_{2}v_{3}}$. Así que sacamos el primer elemento del stack. Sea $v_{3}v_{4}$ la arista frontal y sea u el primer vértice de la pila.
     \end{column}
     \begin{column}{0.7\textwidth}
       \vspace{-2.5cm} % Ajustar el espacio vertical para subir la imagen
@@ -1179,7 +1179,7 @@
   \begin{columns}
     \begin{column}{0.3\textwidth}
       \raggedright % Alineación a la izquierda para mejorar la legibilidad
-      La arista frontal intersecta a $uq$, así que sacamos el primer elemento del stack. Ahora $u$ es $v_{1}$.
+      La arista frontal intersecta a $uq$ y $u$ es vértice de $P$, así que sacamos el primer elemento del stack. Ahora $u$ es $v_{1}$.
     \end{column}
     \begin{column}{0.7\textwidth}
       \vspace{-2.5cm} % Ajustar el espacio vertical para subir la imagen
@@ -1194,7 +1194,7 @@
   \begin{columns}
     \begin{column}{0.3\textwidth}
       \raggedright % Alineación a la izquierda para mejorar la legibilidad
-      La arista frontal intersecta a $uq$, así que sacamos el primer elemento del stack. Ahora $u$ es $v_{0}$. Asignamos a $m$ como el punto de intersección de $\overrightarrow{qv_{4}}$ con la arista que contiene a $u$
+      La arista frontal intersecta a $uq$ y $u$ es vértice de $P$, así que sacamos el primer elemento del stack. Ahora $u$ es $v_{0}$. Sea $m$ el punto de intersección de $\overrightarrow{qv_{4}}$ con la arista que contiene a $u$.
     \end{column}
     \begin{column}{0.7\textwidth}
       \vspace{-2.5cm} % Ajustar el espacio vertical para subir la imagen
@@ -1209,7 +1209,7 @@
   \begin{columns}
     \begin{column}{0.3\textwidth}
       \raggedright % Alineación a la izquierda para mejorar la legibilidad
-      Agregamos a $m$ y $v_{4}$ a la pila.
+      Insertamos a $m$ y $v_{4}$ a la pila.
     \end{column}
     \begin{column}{0.7\textwidth}
       \vspace{-2.5cm} % Ajustar el espacio vertical para subir la imagen
@@ -1224,7 +1224,7 @@
   \begin{columns}
     \begin{column}{0.3\textwidth}
       \raggedright % Alineación a la izquierda para mejorar la legibilidad
-      Como $v_{5}$ está a la izquierda de $\overrightarrow{qv_{4}}$, lo agregamos a la pila.
+      $v_{5}$ está a la izquierda de $\overrightarrow{qv_{4}}$, así que lo agregamos a la pila.
     \end{column}
     \begin{column}{0.7\textwidth}
       \vspace{-2.5cm} % Ajustar el espacio vertical para subir la imagen
@@ -1239,7 +1239,7 @@
   \begin{columns}
     \begin{column}{0.3\textwidth}
       \raggedright % Alineación a la izquierda para mejorar la legibilidad
-      Como $v_{6}$ está a la izquierda de $\overrightarrow{qv_{5}}$, lo agregamos a la pila.
+      $v_{6}$ está a la izquierda de $\overrightarrow{qv_{5}}$, así que lo agregamos a la pila.
     \end{column}
     \begin{column}{0.7\textwidth}
       \vspace{-2.5cm} % Ajustar el espacio vertical para subir la imagen
@@ -1252,65 +1252,15 @@
 \end{frame}
 \begin{frame}{Ejemplo}
   \begin{columns}
-    \begin{column}{0.5\textwidth}
-      TODO
+    \begin{column}{0.3\textwidth}
+      \raggedright % Alineación a la izquierda para mejorar la legibilidad
+      $v_7$ está a la derecha de $\overrightarrow{qv_{6}}$ y a la derecha de $\overrightarrow{v_{5}v_{6}}$. Aí, conseguimos la primer arista en orden antihorario que intersecte a $\overrightarrow{qv_{6}}$ y sea $z$ el punto de intersección.
     \end{column}
-    \begin{column}{0.5\textwidth}
+    \begin{column}{0.7\textwidth}
+      \vspace{-2.5cm} % Ajustar el espacio vertical para subir la imagen
       \begin{figure}
         \centering
-        \includegraphics[width=\linewidth, height=1.5\textheight, page=19, keepaspectratio]{IPE/point_visibility.pdf}
-      \end{figure}
-    \end{column}
-  \end{columns}
-\end{frame}
-\begin{frame}{Ejemplo}
-  \begin{columns}
-    \begin{column}{0.5\textwidth}
-      TODO
-    \end{column}
-    \begin{column}{0.5\textwidth}
-      \begin{figure}
-        \centering
-        \includegraphics[width=\linewidth, height=1.5\textheight, page=20, keepaspectratio]{IPE/point_visibility.pdf}
-      \end{figure}
-    \end{column}
-  \end{columns}
-\end{frame}
-\begin{frame}{Ejemplo}
-  \begin{columns}
-    \begin{column}{0.5\textwidth}
-      TODO
-    \end{column}
-    \begin{column}{0.5\textwidth}
-      \begin{figure}
-        \centering
-        \includegraphics[width=\linewidth, height=1.5\textheight, page=21, keepaspectratio]{IPE/point_visibility.pdf}
-      \end{figure}
-    \end{column}
-  \end{columns}
-\end{frame}
-\begin{frame}{Ejemplo}
-  \begin{columns}
-    \begin{column}{0.5\textwidth}
-      TODO
-    \end{column}
-    \begin{column}{0.5\textwidth}
-      \begin{figure}
-        \centering
-        \includegraphics[width=\linewidth, height=1.5\textheight, page=22, keepaspectratio]{IPE/point_visibility.pdf}
-      \end{figure}
-    \end{column}
-  \end{columns}
-\end{frame}
-\begin{frame}{Ejemplo}
-  \begin{columns}
-    \begin{column}{0.5\textwidth}
-      TODO
-    \end{column}
-    \begin{column}{0.5\textwidth}
-      \begin{figure}
-        \centering
-        \includegraphics[width=\linewidth, height=1.5\textheight, page=23, keepaspectratio]{IPE/point_visibility.pdf}
+        \includegraphics[width=1\linewidth, height=.95\textheight, page=19, keepaspectratio]{IPE/point_visibility.pdf}
       \end{figure}
     \end{column}
   \end{columns}
@@ -1319,7 +1269,67 @@
   \begin{columns}
     \begin{column}{0.3\textwidth}
       \raggedright % Alineación a la izquierda para mejorar la legibilidad
-      TODO fdsaf  dfs asf sad fas fas fsad TODO fdsaf  dfs asf sad fas fas fsadTODO fdsaf  dfs asf sad fas fas fsadTODO fdsaf  dfs asf sad fas fas fsadTODO fdsaf  dfs asf sad fas fas fsadTODO fdsaf  dfs asf sad fas fas fsadTODO fdsaf  dfs asf sad fas fas fsad
+      Insertamos a $z$ y $v_{9}$ a la pila.
+    \end{column}
+    \begin{column}{0.7\textwidth}
+      \vspace{-2.5cm} % Ajustar el espacio vertical para subir la imagen
+      \begin{figure}
+        \centering
+        \includegraphics[width=1\linewidth, height=.95\textheight, page=20, keepaspectratio]{IPE/point_visibility.pdf}
+      \end{figure}
+    \end{column}
+  \end{columns}
+\end{frame}
+\begin{frame}{Ejemplo}
+  \begin{columns}
+    \begin{column}{0.3\textwidth}
+      \raggedright % Alineación a la izquierda para mejorar la legibilidad
+      $v_{10}$ está a la derecha de $\overrightarrow{qv_{9}}$ y a la izquierda de $\overrightarrow{v_{8}v_{9}}$, así que sacamos el primer elemento del stack. Sea $v_9v_{10}$ la arista frontal y sea $z$ el primer vértice de la pila.
+    \end{column}
+    \begin{column}{0.7\textwidth}
+      \vspace{-2.5cm} % Ajustar el espacio vertical para subir la imagen
+      \begin{figure}
+        \centering
+        \includegraphics[width=1\linewidth, height=.95\textheight, page=21, keepaspectratio]{IPE/point_visibility.pdf}
+      \end{figure}
+    \end{column}
+  \end{columns}
+\end{frame}
+\begin{frame}{Ejemplo}
+  \begin{columns}
+    \begin{column}{0.3\textwidth}
+      \raggedright % Alineación a la izquierda para mejorar la legibilidad
+      Sea $m'$ el punto de intersección de $\overrightarrow{qv_{10}}$ con la arista que contiene a $u'$.
+    \end{column}
+    \begin{column}{0.7\textwidth}
+      \vspace{-2.5cm} % Ajustar el espacio vertical para subir la imagen
+      \begin{figure}
+        \centering
+        \includegraphics[width=1\linewidth, height=.95\textheight, page=22, keepaspectratio]{IPE/point_visibility.pdf}
+      \end{figure}
+    \end{column}
+  \end{columns}
+\end{frame}
+\begin{frame}{Ejemplo}
+  \begin{columns}
+    \begin{column}{0.3\textwidth}
+      \raggedright % Alineación a la izquierda para mejorar la legibilidad
+      Insertamos a $m'$ y a $v_{10}$ a la pila.
+    \end{column}
+    \begin{column}{0.7\textwidth}
+      \vspace{-2.5cm} % Ajustar el espacio vertical para subir la imagen
+      \begin{figure}
+        \centering
+        \includegraphics[width=1\linewidth, height=.95\textheight, page=23, keepaspectratio]{IPE/point_visibility.pdf}
+      \end{figure}
+    \end{column}
+  \end{columns}
+\end{frame}
+\begin{frame}{Ejemplo}
+  \begin{columns}
+    \begin{column}{0.3\textwidth}
+      \raggedright % Alineación a la izquierda para mejorar la legibilidad
+      $v_{11}$ está a la izquierda de $\overrightarrow{qv_{}{10}}$ así que lo agregamos a la pila y terminamos.
     \end{column}
     \begin{column}{0.7\textwidth}
       \vspace{-2.5cm} % Ajustar el espacio vertical para subir la imagen
