@@ -1,4 +1,4 @@
-This is LuaHBTeX, Version 1.12.0 (TeX Live 2020)  (format=lualatex 2024.5.12)  17 MAY 2024 08:53
+This is LuaHBTeX, Version 1.12.0 (TeX Live 2020)  (format=lualatex 2024.5.12)  17 MAY 2024 10:02
  restricted system commands enabled.
 **main.tex
 (./main.tex
@@ -2714,17 +2714,11 @@ Package luatex.def Info: IPE/point_visibility.pdf , page24 used on input line 14
 <./IPE/point_visibility.pdf>] [75
 
 ]
-Overfull \vbox (3.76619pt too high) detected at line 1458
- []
-
-[76
-
-]
 File: AICStyleData/logos/azul.png Graphic file (type png)
 <use AICStyleData/logos/azul.png>
-Package luatex.def Info: AICStyleData/logos/azul.png  used on input line 1473.
+Package luatex.def Info: AICStyleData/logos/azul.png  used on input line 1442.
 (luatex.def)             Requested size: 455.24408pt x 256.07095pt.
- [77
+ [76
 
 ]
 \tf@nav=\write8
@@ -2736,14 +2730,14 @@ Package luatex.def Info: AICStyleData/logos/azul.png  used on input line 1473.
 \tf@snm=\write10
 
 \openout10 = main.snm
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 1475.
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 1475.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 1444.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 1444.
  (./main.aux
 LaTeX Info: Redefining \. on input line 29.
 LaTeX Info: Redefining \% on input line 29.
 )
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 1475.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 1475.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 1444.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 1444.
 Package rerunfilecheck Info: File `main.out' has not changed.
 (rerunfilecheck)             Checksum: 81FD22EE1E0131F0245B419DE95B0C8F;1644.
 Package logreq Info: Writing requests to 'main.run.xml'.
@@ -2752,15 +2746,15 @@ Package logreq Info: Writing requests to 'main.run.xml'.
 )
 
 Here is how much of LuaTeX's memory you used:
- 49942 strings out of 480991
+ 49920 strings out of 480991
  125171,1977958 words of node,token memory allocated
  8437 words of node memory still in use:
    99 hlist, 13 vlist, 8 rule, 43 disc, 11 local_par, 2 math, 213 glue, 34 kern,
  25 penalty, 233 glyph, 744 attribute, 73 glue_spec, 374 attribute_list, 5 write
 , 1 save_pos, 216 pdf_literal, 26 pdf_colorstack nodes
-   avail lists: 1:6,2:1895,3:363,4:162,5:455,6:34,7:3341,8:34,9:376,10:23,11:272
+   avail lists: 1:6,2:1889,3:363,4:162,5:430,6:34,7:3249,8:34,9:376,10:23,11:272
 
- 65214 multiletter control sequences out of 65536+600000
+ 65194 multiletter control sequences out of 65536+600000
  131 fonts using 14604979 bytes
  64i,20n,115p,1600b,2607s stack positions out of 5000i,500n,10000p,200000b,100000s
 </usr/share/texlive/texmf-dist/fonts/opentype/public/lm/lmroman9-regular.otf></u
@@ -2780,10 +2774,10 @@ exmf-dist/fonts/type1/public/amsfonts/cm/cmsy6.pfb></usr/share/texlive/texmf-dis
 t/fonts/type1/public/amsfonts/cm/cmsy7.pfb></usr/share/texlive/texmf-dist/fonts/
 type1/public/amsfonts/cm/cmsy8.pfb></usr/share/texlive/texmf-dist/fonts/type1/pu
 blic/amsfonts/cm/cmsy9.pfb>
-Output written on main.pdf (77 pages, 1253653 bytes).
+Output written on main.pdf (76 pages, 1249049 bytes).
 
-PDF statistics: 735 PDF objects out of 1000 (max. 8388607)
- 479 compressed objects within 5 object streams
- 168 named destinations out of 1000 (max. 131072)
+PDF statistics: 730 PDF objects out of 1000 (max. 8388607)
+ 475 compressed objects within 5 object streams
+ 166 named destinations out of 1000 (max. 131072)
  111 words of extra memory for PDF output out of 10000 (max. 100000000)
 

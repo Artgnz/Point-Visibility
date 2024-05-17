@@ -1410,51 +1410,20 @@
 \end{frame}
 
 %-------------------------------------------
-%\begin{frame}{Complejidad del algoritmo}
-%    \begin{block}{Invariante}
-%         El algoritmo mantiene una invariante de que los vértices y puntos en la pila en cualquier etapa están ordenados angularmente con respecto a q.
-%    \end{block}    
-%    \vspace{0.5cm}
-%    Revisemos paso a paso la complejidad del algoritmo
-%        \begin{enumerate}
-%            \item Realizar el CH: $O(n)$
-%            \item La ejecución recorre los n vértices una vez y para cada vértice se realizan operaciones constantes en el stack: $O(n)$
-%        \end{enumerate}
-%Como se trata de un polígono simple, los pasos involucrados en búsquedas y operaciones geométricas son más eficientes ya que no hay intersecciones complejas entre los bordes del polígono.
-%    \begin{center}
-%        \textbf{Complejidad Total: $O(n)$}
-%    \end{center}
-%\end{frame}
 
-\begin{frame}{Algoritmo para calcular $V(q)$}
-    \begin{enumerate}
-            \item Ingresamos a $v_{1}$ al stack y $i := i + 1$. Si $i = n + 1$ \textit{Ir al Paso 8.} \textbf{O(1)}
-            \item Si $v_{i}$ se encuentra a la izquierda de $\overrightarrow{qv_{i-1}}$ entonces \textit{Ir al Paso 1} \textbf{O(1)}
-            \item Si $v_{i}$ se encuentra a la derecha de $\overrightarrow{qv_{i-1}}$ y $\overrightarrow{v_{i-2}v_{i-1}}$ entonces
-                \begin{enumerate}
-                    \item Checar desde $v_{i+1}$ en sentido antihorario hasta encontrar un vértice $v_{k}$ tal que $v_{k-1}v_{k}$ intersecta $\overrightarrow{qv_{i-1}}$. Sea $z$ el punto de intersección. \textbf{O(1)}
-                    \item Ingresamos $z$ al stack. $i := k$ e \textit{Ir al Paso 1.} \textbf{O(1)}
-                \end{enumerate}
-            \item Si $v_{i}$ se encuentra a la derecha de $\overrightarrow{qv_{i-1}}$ y a la izquierda de $\overrightarrow{v_{i-2}v_{i-1}}$ entonces
-                \begin{enumerate}
-                    \item Sea $u$ el elemento que se encuentra en la parte superior del stack. Realizamos \textit{pop} al stack. \textbf{O(1)}
-                    \item Mientras $u$ sea un vértice y $v_{i-1}v_{i}$ intersecte $uq$, realizamos \textit{pop} al stack. \textbf{O(1)}
-                \end{enumerate}
-    \end{enumerate}
-\end{frame}
-\begin{frame}{}
-    \begin{enumerate}
-     \setcounter{enumi}{4} 
-            \item Si $v_{i-1}v_{i}$ no intersecta $uq$ entonces
-                \begin{enumerate}
-                    \item Si $v_{i+1}$ se encuentra a la derecha de $\overrightarrow{qv_{i}}$ entonces $i := i + 1$ e \textit{Ir al Paso 4b.} \textbf{O(1)}
-                    \item Sea $m$ el punto de intersección de $\overrightarrow{qv_{i}}$ y la arista que contiene a $u$. Si $v_{i+1}$ se encuentra a la derecha de $\overrightarrow{v_{i-1}v_{i}}$ entonces ingresamos $m$ al stack y \textit{vamos al Paso 1.} \textbf{O(1)}
-                    \item Checamos desde $v_{i+1}$ en orden antihorario hasta encontrar un vértice $v_{k}$ tal que $v_{k-1}v_{k}$ intersecte $mv_{i}$. Asignamos $k$ a $i$ y \textit{vamos al Paso 4b.} \textbf{O(1)}
-                \end{enumerate}
-            \item Sea $w$ el vértice que se encuentra justo debajo de $u$ en el stack. Sea $p$ el punto de intersección entre $v_{i-1}v_{i}$ y $uq$. Si $p \in qw$ o $q$, $w$ y $u$ no son colineales entonces realizamos \textit{pop} al stack y \textit{vamos al paso 4b}. \textbf{O(1)}
-            \item Checamos desde $v_{i+1}$ en sentido antihorario hasta encontrar un vértice $v_{k}$ tal que $v_{k-1}v_{k}$ intersecte $wp$. Insertamos el punto de intersección al stack, asignamos $k$ a $i$ y \textit{vamos al Paso 1.} \textbf{O(1)}
-            \item Generamos $V(q)$ sacando todos los vértices y puntos del stack y nos detenemos. \textbf{O(n)}
-    \end{enumerate}
+\begin{frame}{Complejidad del algoritmo}
+    %\begin{block}{Invariante}
+    %     El algoritmo mantiene una invariante de que los vértices y puntos en la pila en cualquier etapa están ordenados angularmente con respecto a q.
+    %\end{block}    
+    %\vspace{0.5cm}
+  Notemos que cada vértice de $P$ es considerado una vez por el algoritmo mientras se \textit{escanea} de $v_{0}$ hasta $v_{n}$​.\\
+  \vspace{0.5cm}
+  Si algún vértice $v_{i}$​ es ingresado al stack, $v_{i}$​ permanece en el stack a menos que sea removido durante el backtracking.\\
+  \vspace{0.5cm}
+  Una vez que $v_{i}$​ es removido del stack, $v_{i}$​ no es considerado de nuevo por el algoritmo. Como esto sucede para cualquier vértice, tenemos que la complejidad del algoritmo es $O(n)$.
+    \begin{center}
+        \textbf{Complejidad Total: $O(n)$}
+    \end{center}
 \end{frame}
 
 % ------------------------------------------------

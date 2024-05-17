@@ -348,12 +348,8 @@
 \headcommand {\slideentry {3}{3}{26}{76/76}{Ejemplo}{0}}
 \defcounter {refsection}{0}\relax 
 \headcommand {\beamer@framepages {76}{76}}
-\defcounter {refsection}{0}\relax 
-\headcommand {\slideentry {3}{3}{27}{77/77}{Ejemplo}{0}}
-\defcounter {refsection}{0}\relax 
-\headcommand {\beamer@framepages {77}{77}}
-\headcommand {\beamer@partpages {1}{77}}
-\headcommand {\beamer@subsectionpages {51}{77}}
-\headcommand {\beamer@sectionpages {1}{77}}
-\headcommand {\beamer@documentpages {77}}
-\headcommand {\gdef \inserttotalframenumber {74}}
+\headcommand {\beamer@partpages {1}{76}}
+\headcommand {\beamer@subsectionpages {51}{76}}
+\headcommand {\beamer@sectionpages {1}{76}}
+\headcommand {\beamer@documentpages {76}}
+\headcommand {\gdef \inserttotalframenumber {73}}
